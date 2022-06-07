@@ -246,5 +246,20 @@
   <ItemGroup>
     <None Include="Resources\house-241.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistics-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-more-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-referee-jersey-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-rugby-sevens-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-american-football-helmet-24.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -133,6 +133,46 @@ namespace Rugby_World_Cup_2019_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_american_football_helmet_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-american-football-helmet-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_more_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-more-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_referee_jersey_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-referee-jersey-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_rugby_sevens_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-rugby-sevens-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imageedit_3_3240576243 {
             get {
                 object obj = ResourceManager.GetObject("imageedit_3_3240576243", resourceCulture);
@@ -236,6 +276,16 @@ namespace Rugby_World_Cup_2019_app.Properties {
         internal static System.Drawing.Bitmap sound_off_removebg_preview_2__1_ {
             get {
                 object obj = ResourceManager.GetObject("sound_off-removebg-preview(2)(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap statistics_24 {
+            get {
+                object obj = ResourceManager.GetObject("statistics-24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
