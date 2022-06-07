@@ -33,10 +33,15 @@ namespace Rugby_World_Cup_2019_app
         {
             Application.Exit();
         }
+        /*
         private void playMusic()
         {
-            SoundPlayer soundPlayer = new SoundPlayer(@"C:\Users\Gwynneth Isviandhy\Music\rwcthemesong.wav");
-
+            //SoundPlayer soundPlayer = new SoundPlayer(@"C:\Users\Gwynneth Isviandhy\Music\rwcthemesong.wav");
+            //Console.WriteLine(System.AppDomain.CurrentDomain.BaseDirectory);
+            //string music= System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, @"..\..\asset\rwcthemesong.wav");
+            //Console.WriteLine(music);
+            //SoundPlayer soundPlayer = new SoundPlayer(music);
+            
             if (cBox_btn_music.Checked == false)
             {
                 soundPlayer.Stop();
@@ -46,15 +51,16 @@ namespace Rugby_World_Cup_2019_app
                 soundPlayer.Play();
             }
         }
-
+        */
         private void Form_Intro_Load(object sender, EventArgs e)
         {
-            playMusic();
+          
+            //playMusic();
         }
 
         private void cBox_btn_music_CheckedChanged(object sender, EventArgs e)
         {
-            playMusic();
+           // playMusic();
         }
 
         private void roundBtn_cont_Click(object sender, EventArgs e)

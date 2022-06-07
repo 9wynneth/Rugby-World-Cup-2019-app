@@ -103,6 +103,9 @@
     <EmbeddedResource Include="Form_Security.resx">
       <DependentUpon>Form_Security.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_Tampilan.resx">
+      <DependentUpon>Form_Tampilan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
