@@ -40,7 +40,7 @@ namespace Rugby_World_Cup_2019_app
             // btn_cont
             // 
             this.btn_cont.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btn_cont.Location = new System.Drawing.Point(542, 244);
+            this.btn_cont.Location = new System.Drawing.Point(475, 252);
             this.btn_cont.Name = "btn_cont";
             this.btn_cont.Size = new System.Drawing.Size(112, 34);
             this.btn_cont.TabIndex = 11;
@@ -50,7 +50,7 @@ namespace Rugby_World_Cup_2019_app
             // 
             // btn_back
             // 
-            this.btn_back.Location = new System.Drawing.Point(394, 244);
+            this.btn_back.Location = new System.Drawing.Point(327, 252);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(112, 34);
             this.btn_back.TabIndex = 10;
@@ -59,14 +59,14 @@ namespace Rugby_World_Cup_2019_app
             // 
             // tBoxPass
             // 
-            this.tBoxPass.Location = new System.Drawing.Point(542, 183);
+            this.tBoxPass.Location = new System.Drawing.Point(475, 191);
             this.tBoxPass.Name = "tBoxPass";
             this.tBoxPass.Size = new System.Drawing.Size(218, 26);
             this.tBoxPass.TabIndex = 9;
             // 
             // tBoxUsername
             // 
-            this.tBoxUsername.Location = new System.Drawing.Point(542, 132);
+            this.tBoxUsername.Location = new System.Drawing.Point(475, 140);
             this.tBoxUsername.Name = "tBoxUsername";
             this.tBoxUsername.Size = new System.Drawing.Size(329, 26);
             this.tBoxUsername.TabIndex = 8;
@@ -74,7 +74,7 @@ namespace Rugby_World_Cup_2019_app
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(394, 183);
+            this.label2.Location = new System.Drawing.Point(327, 191);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(142, 20);
             this.label2.TabIndex = 7;
@@ -83,7 +83,7 @@ namespace Rugby_World_Cup_2019_app
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(394, 132);
+            this.label1.Location = new System.Drawing.Point(327, 140);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(147, 20);
             this.label1.TabIndex = 6;

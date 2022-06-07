@@ -53,6 +53,42 @@
     <Compile Include="ChangingAccess.Designer.cs">
       <DependentUpon>ChangingAccess.cs</DependentUpon>
     </Compile>
+    <Compile Include="Edit_manager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Edit_manager.Designer.cs">
+      <DependentUpon>Edit_manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_match.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Edit_match.Designer.cs">
+      <DependentUpon>Edit_match.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_matchDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Edit_matchDetail.Designer.cs">
+      <DependentUpon>Edit_matchDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_player.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Edit_player.Designer.cs">
+      <DependentUpon>Edit_player.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_referee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Edit_referee.Designer.cs">
+      <DependentUpon>Edit_referee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_team.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Edit_team.Designer.cs">
+      <DependentUpon>Edit_team.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +126,24 @@
     </Compile>
     <EmbeddedResource Include="ChangingAccess.resx">
       <DependentUpon>ChangingAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_manager.resx">
+      <DependentUpon>Edit_manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_match.resx">
+      <DependentUpon>Edit_match.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_matchDetail.resx">
+      <DependentUpon>Edit_matchDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_player.resx">
+      <DependentUpon>Edit_player.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_referee.resx">
+      <DependentUpon>Edit_referee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_team.resx">
+      <DependentUpon>Edit_team.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -149,6 +203,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\output-onlinejpgtools_2_-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageedit_4_4530618903%281%29%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon Team NEW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\available-updates-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\available-updates-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy-2-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view-details-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manager-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-5-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-5-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-4-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house-241.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

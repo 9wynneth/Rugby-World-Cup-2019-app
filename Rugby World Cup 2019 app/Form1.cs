@@ -65,10 +65,9 @@ namespace Rugby_World_Cup_2019_app
 
         private void roundBtn_cont_Click(object sender, EventArgs e)
         {
+            this.Close();
             formTampilan.ShowDialog();
         }
-
-
 
         private void roundBtn_edit_Click_1(object sender, EventArgs e)
         {

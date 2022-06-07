@@ -42,6 +42,13 @@ namespace Rugby_World_Cup_2019_app
         private void hide()
         {
             changingAccess2.Visible = false;
+            edit_team1.Visible = false;
+            edit_player1.Visible = false;
+            edit_match1.Visible = false;
+            edit_matchDetail1.Visible = false;
+            edit_manager1.Visible = false;
+            edit_referee1.Visible = false;
+
         }
 
         bool sidebarExpand;
@@ -139,6 +146,47 @@ namespace Rugby_World_Cup_2019_app
         private void changingAccess2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_return_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_team_Click(object sender, EventArgs e)
+        {
+            edit_team1.Visible = true;
+        }
+
+        private void edit_player1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_player_Click(object sender, EventArgs e)
+        {
+            edit_player1.Visible = true;
+        }
+
+        private void btn_match_Click(object sender, EventArgs e)
+        {
+            edit_match1.Visible = true;
+        }
+
+        private void btn_matchDetail_Click(object sender, EventArgs e)
+        {
+            edit_matchDetail1.Visible = true;
+        }
+
+        private void btn_referee_Click(object sender, EventArgs e)
+        {
+           
+            edit_referee1.Visible = true;
+        }
+
+        private void btn_manager_Click(object sender, EventArgs e)
+        {
+            edit_manager1.Visible = true;
         }
     }
 }
