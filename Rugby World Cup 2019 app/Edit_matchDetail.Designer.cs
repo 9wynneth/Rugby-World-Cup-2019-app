@@ -62,6 +62,7 @@ namespace Rugby_World_Cup_2019_app
             this.round_btn_deleteMatchDetail.TabIndex = 23;
             this.round_btn_deleteMatchDetail.Text = "DEL";
             this.round_btn_deleteMatchDetail.UseVisualStyleBackColor = false;
+            this.round_btn_deleteMatchDetail.Click += new System.EventHandler(this.round_btn_deleteMatchDetail_Click);
             // 
             // dGV_edit_matchDetail
             // 
@@ -117,6 +118,7 @@ namespace Rugby_World_Cup_2019_app
             this.Controls.Add(this.picBox_edit);
             this.Name = "Edit_matchDetail";
             this.Size = new System.Drawing.Size(1109, 743);
+            this.Load += new System.EventHandler(this.Edit_matchDetail_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dGV_edit_matchDetail)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_edit)).EndInit();
             this.ResumeLayout(false);

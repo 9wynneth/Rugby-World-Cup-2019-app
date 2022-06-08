@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Rugby_World_Cup_2019_app
 {
@@ -20,7 +21,10 @@ namespace Rugby_World_Cup_2019_app
             formChange.FormClosing += formChange_FormClosing;
         }
 
-      
+        MySqlConnection sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=DBD_07_RWC2019");
+        MySqlCommand sqlCommand;
+        MySqlDataAdapter sqlAdapter;
+        String sqlQuery;
 
         private void Form_Edit_Load(object sender, EventArgs e)
         {
@@ -140,6 +144,7 @@ namespace Rugby_World_Cup_2019_app
 
         private void btn_chngUsername_Click(object sender, EventArgs e)
         {
+            hide();
             formChange.ShowDialog();
         }
 
@@ -155,6 +160,7 @@ namespace Rugby_World_Cup_2019_app
 
         private void btn_team_Click(object sender, EventArgs e)
         {
+            hide();
             edit_team1.Visible = true;
         }
 
@@ -165,27 +171,36 @@ namespace Rugby_World_Cup_2019_app
 
         private void btn_player_Click(object sender, EventArgs e)
         {
+            hide();
+
             edit_player1.Visible = true;
         }
 
         private void btn_match_Click(object sender, EventArgs e)
         {
+            hide();
             edit_match1.Visible = true;
         }
 
         private void btn_matchDetail_Click(object sender, EventArgs e)
         {
+            hide();
+
             edit_matchDetail1.Visible = true;
         }
 
         private void btn_referee_Click(object sender, EventArgs e)
         {
-           
+            hide();
+
+
             edit_referee1.Visible = true;
         }
 
         private void btn_manager_Click(object sender, EventArgs e)
         {
+            hide();
+
             edit_manager1.Visible = true;
         }
     }

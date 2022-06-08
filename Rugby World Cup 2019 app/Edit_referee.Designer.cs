@@ -62,6 +62,7 @@ namespace Rugby_World_Cup_2019_app
             this.round_btn_deleteReferee.TabIndex = 29;
             this.round_btn_deleteReferee.Text = "DEL";
             this.round_btn_deleteReferee.UseVisualStyleBackColor = false;
+            this.round_btn_deleteReferee.Click += new System.EventHandler(this.round_btn_deleteReferee_Click);
             // 
             // dGV_edit_referee
             // 
@@ -117,6 +118,7 @@ namespace Rugby_World_Cup_2019_app
             this.Controls.Add(this.picBox_edit);
             this.Name = "Edit_referee";
             this.Size = new System.Drawing.Size(1109, 743);
+            this.Load += new System.EventHandler(this.Edit_referee_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dGV_edit_referee)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_edit)).EndInit();
             this.ResumeLayout(false);

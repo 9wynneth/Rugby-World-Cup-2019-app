@@ -56,6 +56,7 @@ namespace Rugby_World_Cup_2019_app
             this.btn_back.TabIndex = 10;
             this.btn_back.Text = "Back";
             this.btn_back.UseVisualStyleBackColor = true;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // tBoxPass
             // 

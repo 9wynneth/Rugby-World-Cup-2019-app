@@ -23,5 +23,10 @@ namespace Rugby_World_Cup_2019_app
             formAccess.username = tBoxUsername.Text;
             
         }
+
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

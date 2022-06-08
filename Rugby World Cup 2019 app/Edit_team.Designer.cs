@@ -82,6 +82,7 @@ namespace Rugby_World_Cup_2019_app
             this.round_btn_deleteTeam.TabIndex = 5;
             this.round_btn_deleteTeam.Text = "DEL";
             this.round_btn_deleteTeam.UseVisualStyleBackColor = false;
+            this.round_btn_deleteTeam.Click += new System.EventHandler(this.round_btn_deleteTeam_Click);
             // 
             // round_btn_updateTeam
             // 
