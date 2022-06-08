@@ -103,5 +103,21 @@ namespace Rugby_World_Cup_2019_app
         {
             timer_more.Start();
         }
+
+        private void Form_Tampilan_Load(object sender, EventArgs e)
+        {
+            hide();
+        }
+
+        private void hide()
+        {
+            show_tournamentStats1.Visible = false;
+        }
+        private void btn_tournamentStats_Click(object sender, EventArgs e)
+        {
+            hide();
+            show_tournamentStats1.Visible = true;
+
+        }
     }
 }

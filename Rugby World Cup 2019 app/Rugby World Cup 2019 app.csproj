@@ -124,6 +124,12 @@
     <Compile Include="RoundButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Show_tournamentStats.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Show_tournamentStats.Designer.cs">
+      <DependentUpon>Show_tournamentStats.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ChangingAccess.resx">
       <DependentUpon>ChangingAccess.cs</DependentUpon>
     </EmbeddedResource>
@@ -170,6 +176,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Show_tournamentStats.resx">
+      <DependentUpon>Show_tournamentStats.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
