@@ -20,10 +20,9 @@ namespace Rugby_World_Cup_2019_app
             InitializeComponent();
         }
 
-        MySqlConnection sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=premier_league");
-        MySqlCommand sqlCommand;
-        MySqlDataAdapter sqlAdapter;
-        String sqlQuery;
+        public MySqlConnection sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=premier_league");
+        public MySqlCommand sqlCommand;
+        public MySqlDataAdapter sqlAdapter;
 
         Form_Security formAccess = new Form_Security();
         Form_Tampilan formTampilan = new Form_Tampilan();
@@ -33,14 +32,13 @@ namespace Rugby_World_Cup_2019_app
         {
             Application.Exit();
         }
-        /*
         private void playMusic()
         {
             //SoundPlayer soundPlayer = new SoundPlayer(@"C:\Users\Gwynneth Isviandhy\Music\rwcthemesong.wav");
-            //Console.WriteLine(System.AppDomain.CurrentDomain.BaseDirectory);
-            //string music= System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, @"..\..\asset\rwcthemesong.wav");
-            //Console.WriteLine(music);
-            //SoundPlayer soundPlayer = new SoundPlayer(music);
+            Console.WriteLine(System.AppDomain.CurrentDomain.BaseDirectory);
+            string music = System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\asset\rwcthemesong.wav");
+            Console.WriteLine(music);
+            SoundPlayer soundPlayer = new SoundPlayer(music);
             
             if (cBox_btn_music.Checked == false)
             {
@@ -51,11 +49,11 @@ namespace Rugby_World_Cup_2019_app
                 soundPlayer.Play();
             }
         }
-        */
+
         private void Form_Intro_Load(object sender, EventArgs e)
         {
           
-            //playMusic();
+            playMusic();
         }
 
         private void cBox_btn_music_CheckedChanged(object sender, EventArgs e)

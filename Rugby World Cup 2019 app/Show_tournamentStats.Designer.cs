@@ -151,7 +151,7 @@ namespace Rugby_World_Cup_2019_app
             // 
             // lbl_redCard
             // 
-            this.lbl_redCard.AutoSize = true;
+            //this.lbl_redCard.AutoSize = true;
             this.lbl_redCard.Location = new System.Drawing.Point(3, 9);
             this.lbl_redCard.Name = "lbl_redCard";
             this.lbl_redCard.Size = new System.Drawing.Size(105, 20);
