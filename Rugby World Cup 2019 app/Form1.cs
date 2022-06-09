@@ -20,6 +20,7 @@ namespace Rugby_World_Cup_2019_app
             InitializeComponent();
         }
 
+
         MySqlConnection sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=premier_league");
         MySqlCommand sqlCommand;
         MySqlDataAdapter sqlAdapter;
