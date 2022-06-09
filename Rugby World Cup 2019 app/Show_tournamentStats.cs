@@ -48,7 +48,6 @@ namespace Rugby_World_Cup_2019_app
             sqlAdapter = new MySqlDataAdapter(sqlCommand);
             sqlAdapter.Fill(dtMostTries);
 
-           
             linkLabel_playerMostTries.Text= dtMostTries.Rows[0][0].ToString();
             lbl_mostTriesNationality.Text= dtMostTries.Rows[0][1].ToString();
             lbl_mostTries.Text = dtMostTries.Rows[0][2].ToString();
