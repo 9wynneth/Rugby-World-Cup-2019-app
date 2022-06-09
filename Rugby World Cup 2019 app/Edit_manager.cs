@@ -13,8 +13,8 @@ namespace Rugby_World_Cup_2019_app
 {
     public partial class Edit_manager : UserControl
     {
-        Form_Intro formIntro = new Form_Intro();
-        MySqlConnection sqlConnect = new MySqlConnection("server=139.255.11.84;uid=student;pwd=isbmantap;database=dBd_07_rwc2019");
+
+        MySqlConnection sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
         MySqlCommand sqlCommand;
         MySqlDataAdapter sqlAdapter;
         String sqlQuery;
