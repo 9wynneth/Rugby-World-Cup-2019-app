@@ -112,12 +112,24 @@ namespace Rugby_World_Cup_2019_app
         private void hide()
         {
             show_tournamentStats1.Visible = false;
+            show_stadium1.Visible = false;
         }
         private void btn_tournamentStats_Click(object sender, EventArgs e)
         {
             hide();
             show_tournamentStats1.Visible = true;
 
+        }
+
+        private void btn_return_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_stadium_Click(object sender, EventArgs e)
+        {
+            hide();
+            show_stadium1.Visible = true;
         }
     }
 }

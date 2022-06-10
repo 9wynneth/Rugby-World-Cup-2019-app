@@ -113,6 +113,12 @@
     <Compile Include="Form_insert.Designer.cs">
       <DependentUpon>Form_insert.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_moreDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_moreDetail.Designer.cs">
+      <DependentUpon>Form_moreDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Security.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +141,12 @@
     </Compile>
     <Compile Include="Show_details.Designer.cs">
       <DependentUpon>Show_details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Show_stadium.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Show_stadium.Designer.cs">
+      <DependentUpon>Show_stadium.cs</DependentUpon>
     </Compile>
     <Compile Include="Show_tournamentStats.cs">
       <SubType>UserControl</SubType>
@@ -175,6 +187,9 @@
     <EmbeddedResource Include="Form_insert.resx">
       <DependentUpon>Form_insert.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_moreDetail.resx">
+      <DependentUpon>Form_moreDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Security.resx">
       <DependentUpon>Form_Security.cs</DependentUpon>
     </EmbeddedResource>
@@ -193,6 +208,9 @@
     </Compile>
     <EmbeddedResource Include="Show_details.resx">
       <DependentUpon>Show_details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_stadium.resx">
+      <DependentUpon>Show_stadium.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Show_tournamentStats.resx">
       <DependentUpon>Show_tournamentStats.cs</DependentUpon>
@@ -296,6 +314,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\imageedit_4_4530618903%281%29%281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image%282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image%282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stadium-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image%283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image%284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sapporo Dome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kamaishi Recovery Memorial Stadium1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kumagaya Rugby Stadium1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

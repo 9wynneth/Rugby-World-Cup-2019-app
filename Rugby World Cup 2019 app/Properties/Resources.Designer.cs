@@ -173,6 +173,16 @@ namespace Rugby_World_Cup_2019_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_stadium_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-stadium-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image {
             get {
                 object obj = ResourceManager.GetObject("image", resourceCulture);
@@ -186,6 +196,46 @@ namespace Rugby_World_Cup_2019_app.Properties {
         internal static System.Drawing.Bitmap image_1_ {
             get {
                 object obj = ResourceManager.GetObject("image(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_2_ {
+            get {
+                object obj = ResourceManager.GetObject("image(2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_2_1 {
+            get {
+                object obj = ResourceManager.GetObject("image(2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_3_ {
+            get {
+                object obj = ResourceManager.GetObject("image(3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_4_ {
+            get {
+                object obj = ResourceManager.GetObject("image(4)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +273,29 @@ namespace Rugby_World_Cup_2019_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Kamaishi_Recovery_Memorial_Stadium {
+            get {
+                object obj = ResourceManager.GetObject("Kamaishi Recovery Memorial Stadium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap key_4_24 {
             get {
                 object obj = ResourceManager.GetObject("key-4-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Kumagaya_Rugby_Stadium {
+            get {
+                object obj = ResourceManager.GetObject("Kumagaya Rugby Stadium", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -276,6 +346,16 @@ namespace Rugby_World_Cup_2019_app.Properties {
         internal static System.Drawing.Bitmap output_onlinejpgtools_2__removebg_preview1 {
             get {
                 object obj = ResourceManager.GetObject("output-onlinejpgtools_2_-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sapporo_Dome {
+            get {
+                object obj = ResourceManager.GetObject("Sapporo Dome", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

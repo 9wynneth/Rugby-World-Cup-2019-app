@@ -124,17 +124,32 @@
   <data name="output-onlinejpgtools_2_-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\output-onlinejpgtools_2_-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="trophy-2-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trophy-2-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="available-updates-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\available-updates-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="imageedit_4_4530618903(1)(1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageedit_4_4530618903(1)(1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="house-241" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\house-241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-stadium-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-stadium-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image(3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image(3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="group-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\group-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imageedit_3_3240576243" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageedit_3_3240576243.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sapporo Dome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sapporo Dome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="available-updates-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\available-updates-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,11 +163,14 @@
   <data name="edit-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\edit-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image(2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image(2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-referee-jersey-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-referee-jersey-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="manager-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\manager-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Kamaishi Recovery Memorial Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kamaishi Recovery Memorial Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-more-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-more-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,6 +187,9 @@
   <data name="icons8-american-football-helmet-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-american-football-helmet-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image(4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image(4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-rugby-sevens-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-rugby-sevens-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,14 +205,17 @@
   <data name="key-4-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\key-4-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="trophy-2-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\trophy-2-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="manager-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\manager-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="house-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\house-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image(2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image(2)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="view-details-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\view-details-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,7 +226,7 @@
   <data name="image(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image(1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imageedit_4_4530618903(1)(1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imageedit_4_4530618903(1)(1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Kumagaya Rugby Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kumagaya Rugby Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
