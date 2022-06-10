@@ -78,7 +78,6 @@ namespace Rugby_World_Cup_2019_app
             picBox_stadium.Visible = true;
             pnl_popUp.Visible = true;
            
-
         }
 
         private void btn_kamaishi_MouseLeave(object sender, EventArgs e)
