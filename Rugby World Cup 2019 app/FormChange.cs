@@ -18,8 +18,8 @@ namespace Rugby_World_Cup_2019_app
         }
 
 
-        public string username = "rwc2019db";
-        public string password = "ALPFINALPROJECT";
+        public string username = "1";
+        public string password = "1";
         public bool checker = false;
 
         private void FormChange_Load(object sender, EventArgs e)

@@ -18,13 +18,19 @@ namespace Rugby_World_Cup_2019_app
             InitializeComponent();
         }
 
+        //Form_Intro formAwal = new Form_Intro();
+
         MySqlConnection sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
         MySqlCommand sqlCommand;
         MySqlDataAdapter sqlAdapter;
         String sqlQuery;
 
-        DataTable dtEditReferee = new DataTable();
 
+
+        DataTable dtReferee = new DataTable();
+        DataTable dtNationality = new DataTable();
+        DataTable dtEditReferee = new DataTable();
+        public int selectedData;
         private void Edit_referee_Load(object sender, EventArgs e)
         {
             sqlQuery = "SELECT * FROM REFEREE";
@@ -49,5 +55,53 @@ namespace Rugby_World_Cup_2019_app
 
             dGV_edit_referee.Rows.RemoveAt(dGV_edit_referee.SelectedRows[0].Index);
         }
+
+        private void round_btn_updateReferee_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dGV_edit_referee_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            selectedData = dGV_edit_referee.CurrentCell.RowIndex;
+            //getData();
+        }
+
+
+        private void getData()
+        {
+            /*
+            sqlQuery = "SELECT r.referee_id, r.referee_name, n.country_name as nationality FROM REFEREE r, nationality n WHERE n.nationality_id=r.nationality_id";
+            formAwal.sqlCommand = new MySqlCommand(sqlQuery, formAwal.sqlConnect);
+            formAwal.sqlAdapter = new MySqlDataAdapter(formAwal.sqlCommand);
+            formAwal.sqlAdapter.Fill(dtReferee);
+
+            tBox_refereeID.Text = dtReferee.Rows[selectedData][0].ToString();
+            tBox_refereeName.Text = dtReferee.Rows[selectedData][1].ToString();
+            cBox_nationality.DisplayMember = "nationality";
+
+            sqlQuery = "SELECT nationality_id, country_name as nationality FROM NATIONALITY";
+            formAwal.sqlCommand = new MySqlCommand(sqlQuery, formAwal.sqlConnect);
+            formAwal.sqlAdapter = new MySqlDataAdapter(formAwal.sqlCommand);
+            formAwal.sqlAdapter.Fill(dtNationality);
+
+            cBox_nationality.DataSource = dtNationality;
+            */
+        }
+
+        /*
+        private void round_btn_updateReferee_Click(object sender, EventArgs e)
+        {
+            
+            formReferee.selectedData=dGV_edit_referee.CurrentCell.RowIndex;
+           formReferee.Show();
+        }
+
+       private void dGV_edit_referee_SelectionChanged(object sender, EventArgs e)
+        {
+    
+            formReferee.selectedData = dGV_edit_referee.CurrentCell.RowIndex;
+            //formReferee.load();
+        }*/
     }
 }

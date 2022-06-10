@@ -213,6 +213,16 @@ namespace Rugby_World_Cup_2019_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imageedit_4_4530618903_1__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("imageedit_4_4530618903(1)(1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap key_4_24 {
             get {
                 object obj = ResourceManager.GetObject("key-4-24", resourceCulture);

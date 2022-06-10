@@ -107,6 +107,12 @@
     <Compile Include="Form_Edit.Designer.cs">
       <DependentUpon>Form_Edit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_insert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_insert.Designer.cs">
+      <DependentUpon>Form_insert.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Security.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +171,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Edit.resx">
       <DependentUpon>Form_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_insert.resx">
+      <DependentUpon>Form_insert.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Security.resx">
       <DependentUpon>Form_Security.cs</DependentUpon>
@@ -284,6 +293,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image%281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageedit_4_4530618903%281%29%281%291.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
