@@ -127,11 +127,23 @@
   <data name="trophy-2-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trophy-2-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Hanazono Rugby Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hanazono Rugby Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="available-updates-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\available-updates-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Kobe Misaki Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kobe Misaki Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="imageedit_4_4530618903(1)(1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageedit_4_4530618903(1)(1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="manager-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\manager-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shizuoka Stadium Ecopa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shizuoka Stadium Ecopa1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="house-241" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\house-241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,6 +175,9 @@
   <data name="edit-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\edit-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="city of toyota" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\city of toyota1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="image(2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image(2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -171,6 +186,9 @@
   </data>
   <data name="Kamaishi Recovery Memorial Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kamaishi Recovery Memorial Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fukuoka Hakatanomori Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fukuoka Hakatanomori Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-more-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-more-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,6 +211,9 @@
   <data name="icons8-rugby-sevens-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-rugby-sevens-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Kumamoto Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kumamoto Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="settings-5-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings-5-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -202,11 +223,14 @@
   <data name="statistics-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\statistics-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Tokyo Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tokyo Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="key-4-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\key-4-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="manager-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\manager-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Kumagaya Rugby Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kumagaya Rugby Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,11 +238,17 @@
   <data name="house-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\house-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Oita Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oita Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="image(2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image(2)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="view-details-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\view-details-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="375px-Nissan_International_Stadium_Yokohama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\375px-Nissan_International_Stadium_Yokohama1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="settings-5-241" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings-5-241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,7 +256,7 @@
   <data name="image(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image(1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Kumagaya Rugby Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Kumagaya Rugby Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bgintro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgintro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

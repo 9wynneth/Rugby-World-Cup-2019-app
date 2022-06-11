@@ -63,6 +63,16 @@ namespace Rugby_World_Cup_2019_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _375px_Nissan_International_Stadium_Yokohama {
+            get {
+                object obj = ResourceManager.GetObject("375px-Nissan_International_Stadium_Yokohama", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap available_updates_32 {
             get {
                 object obj = ResourceManager.GetObject("available-updates-32", resourceCulture);
@@ -83,6 +93,26 @@ namespace Rugby_World_Cup_2019_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bgintro {
+            get {
+                object obj = ResourceManager.GetObject("bgintro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap city_of_toyota {
+            get {
+                object obj = ResourceManager.GetObject("city of toyota", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap edit_24 {
             get {
                 object obj = ResourceManager.GetObject("edit-24", resourceCulture);
@@ -93,9 +123,29 @@ namespace Rugby_World_Cup_2019_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Fukuoka_Hakatanomori_Stadium {
+            get {
+                object obj = ResourceManager.GetObject("Fukuoka Hakatanomori Stadium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap group_24 {
             get {
                 object obj = ResourceManager.GetObject("group-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hanazono_Rugby_Stadium {
+            get {
+                object obj = ResourceManager.GetObject("Hanazono Rugby Stadium", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,6 +343,16 @@ namespace Rugby_World_Cup_2019_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Kobe_Misaki_Stadium {
+            get {
+                object obj = ResourceManager.GetObject("Kobe Misaki Stadium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Kumagaya_Rugby_Stadium {
             get {
                 object obj = ResourceManager.GetObject("Kumagaya Rugby Stadium", resourceCulture);
@@ -303,9 +363,29 @@ namespace Rugby_World_Cup_2019_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Kumamoto_Stadium {
+            get {
+                object obj = ResourceManager.GetObject("Kumamoto Stadium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap manager_24 {
             get {
                 object obj = ResourceManager.GetObject("manager-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Oita_Stadium {
+            get {
+                object obj = ResourceManager.GetObject("Oita Stadium", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -383,6 +463,16 @@ namespace Rugby_World_Cup_2019_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Shizuoka_Stadium_Ecopa {
+            get {
+                object obj = ResourceManager.GetObject("Shizuoka Stadium Ecopa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sound_off_removebg_preview_2__1_ {
             get {
                 object obj = ResourceManager.GetObject("sound_off-removebg-preview(2)(1)", resourceCulture);
@@ -396,6 +486,16 @@ namespace Rugby_World_Cup_2019_app.Properties {
         internal static System.Drawing.Bitmap statistics_24 {
             get {
                 object obj = ResourceManager.GetObject("statistics-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tokyo_Stadium {
+            get {
+                object obj = ResourceManager.GetObject("Tokyo Stadium", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

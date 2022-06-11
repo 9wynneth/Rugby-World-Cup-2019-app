@@ -339,5 +339,35 @@
   <ItemGroup>
     <None Include="Resources\Kumagaya Rugby Stadium1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tokyo Stadium1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\375px-Nissan_International_Stadium_Yokohama1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shizuoka Stadium Ecopa1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\city of toyota1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hanazono Rugby Stadium1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kobe Misaki Stadium1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oita Stadium1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kumamoto Stadium1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fukuoka Hakatanomori Stadium1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgintro.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
