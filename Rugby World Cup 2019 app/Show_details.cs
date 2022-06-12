@@ -23,7 +23,11 @@ namespace Rugby_World_Cup_2019_app
         MySqlDataAdapter sqlAdapter;
         String sqlQuery;
 
+        Show_tournamentStats showStats = new Show_tournamentStats();
+        Show_stadium showStadium = new Show_stadium();
+
         DataTable dtRedCardDetail = new DataTable();
+        DataTable dtStadium = new DataTable();
 
         void StyleDatagridview()
         {
@@ -41,6 +45,7 @@ namespace Rugby_World_Cup_2019_app
             dGV_ShowDetails.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
         }
 
+        public  DataGridView dGV = new DataGridView();
 
         private void Show_details_Load(object sender, EventArgs e)
         {
@@ -49,12 +54,27 @@ namespace Rugby_World_Cup_2019_app
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);
             sqlAdapter.Fill(dtRedCardDetail);
+          
+            MessageBox.Show(Show_tournamentStats.detailRedCards.ToString());
+            MessageBox.Show(Show_stadium.sapporo.ToString());
 
-            Show_tournamentStats showStats = new Show_tournamentStats();
-            if (showStats.detailRedCards==true)
+
+            if (Show_tournamentStats.detailRedCards==false)
             {
                 dGV_ShowDetails.DataSource = dtRedCardDetail;
+                Show_tournamentStats.detailRedCards = true;
             }
+            else if (Show_stadium.sapporo==false)
+            {
+                sqlQuery = $"SELECT m.match_id, m.match_date, r.referee_name, Concat((SELECT t.team_name FROM team t WHERE t.team_id = m.teamHome_id), ' VS ',  (SELECT t.team_name FROM team t WHERE t.team_id = m.teamAway_id)) as `MATCH`,  concat(m.goal_home, ' - ', m.goal_away) FROM stadium s, `match` m, referee r WHERE m.referee_id = r.referee_id and s.stadium_id = m.stadium_id and s.stadium_id = '{Show_stadium.sapporoID}' group by 1;  ";
+                sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
+                sqlAdapter = new MySqlDataAdapter(sqlCommand);
+                sqlAdapter.Fill(dtStadium);
+
+                dGV_ShowDetails.DataSource = dtStadium;
+            }
+            
+            
         }
     }
 }

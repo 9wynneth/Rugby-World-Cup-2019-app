@@ -30,7 +30,7 @@ namespace Rugby_World_Cup_2019_app
         private void Show_stadium_Load(object sender, EventArgs e)
         {
             hide();
-            sqlQuery = "SELECT s.stadium_name, s.city, Concat(left(s.capacity, 3), ',',right(s.capacity,3)) as capacity FROM stadium s; ";
+            sqlQuery = "SELECT s.stadium_name, s.city, Concat(left(s.capacity, 3), ',',right(s.capacity,3)) as capacity, s.stadium_id FROM stadium s; ";
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);
             sqlAdapter.Fill(dtStadium);
@@ -259,6 +259,20 @@ namespace Rugby_World_Cup_2019_app
         private void btn_fukuoka_MouseLeave(object sender, EventArgs e)
         {
             hide();
+        }
+
+        Show_details showDetails = new Show_details();
+
+        public static bool sapporo=true;
+        public static string sapporoID="";
+      
+        public void btn_sapporo_Click(object sender, EventArgs e)
+        {
+            sapporo = false;
+            sapporoID= dtStadium.Rows[9][3].ToString();
+            
+            showDetails.ShowDialog();
+          
         }
     }
 }

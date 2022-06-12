@@ -16,12 +16,14 @@ namespace Rugby_World_Cup_2019_app
         public Show_tournamentStats()
         {
             InitializeComponent();
+            
         }
 
         MySqlConnection sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
         MySqlCommand sqlCommand;
         MySqlDataAdapter sqlAdapter;
         String sqlQuery;
+        Show_details showDetails = new Show_details();
 
         DataTable dtTotalRedCards = new DataTable();
         DataTable dtTotalYellowCards = new DataTable();
@@ -53,13 +55,15 @@ namespace Rugby_World_Cup_2019_app
             lbl_mostTries.Text = dtMostTries.Rows[0][2].ToString();
 
         }
-        public bool detailRedCards = false;
+        public static bool detailRedCards=true;
+    
 
-        public void btn_details_redCards_Click(object sender, EventArgs e)
+        private void btn_details_redCards_Click(object sender, EventArgs e)
         {
-            detailRedCards = true;
-            Show_details showDetails = new Show_details();
+            detailRedCards = false;
+            
             showDetails.ShowDialog();
+            
         }
     }
 }

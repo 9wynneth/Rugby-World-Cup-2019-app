@@ -113,6 +113,7 @@ namespace Rugby_World_Cup_2019_app
         {
             show_tournamentStats1.Visible = false;
             show_stadium1.Visible = false;
+            show_Referee1.Visible = false;
         }
         private void btn_tournamentStats_Click(object sender, EventArgs e)
         {
@@ -131,5 +132,13 @@ namespace Rugby_World_Cup_2019_app
             hide();
             show_stadium1.Visible = true;
         }
+
+        private void btn_referee_Click(object sender, EventArgs e)
+        {
+            hide();
+            show_Referee1.Visible = true;
+        }
+
+   
     }
 }

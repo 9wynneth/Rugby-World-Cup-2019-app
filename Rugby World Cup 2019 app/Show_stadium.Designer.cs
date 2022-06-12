@@ -71,16 +71,16 @@ namespace Rugby_World_Cup_2019_app
             this.pnl_maps.Controls.Add(this.btn_kamaishi);
             this.pnl_maps.Location = new System.Drawing.Point(47, 41);
             this.pnl_maps.Name = "pnl_maps";
-            this.pnl_maps.Size = new System.Drawing.Size(1022, 565);
+            this.pnl_maps.Size = new System.Drawing.Size(1045, 565);
             this.pnl_maps.TabIndex = 0;
             // 
             // btn_fukuoka
             // 
             this.btn_fukuoka.BackColor = System.Drawing.Color.Red;
             this.btn_fukuoka.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_fukuoka.Location = new System.Drawing.Point(204, 345);
+            this.btn_fukuoka.Location = new System.Drawing.Point(218, 345);
             this.btn_fukuoka.Name = "btn_fukuoka";
-            this.btn_fukuoka.Size = new System.Drawing.Size(21, 20);
+            this.btn_fukuoka.Size = new System.Drawing.Size(18, 20);
             this.btn_fukuoka.TabIndex = 12;
             this.btn_fukuoka.UseVisualStyleBackColor = false;
             this.btn_fukuoka.MouseLeave += new System.EventHandler(this.btn_fukuoka_MouseLeave);
@@ -90,9 +90,9 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.btn_kumamoto.BackColor = System.Drawing.Color.Red;
             this.btn_kumamoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_kumamoto.Location = new System.Drawing.Point(197, 397);
+            this.btn_kumamoto.Location = new System.Drawing.Point(209, 397);
             this.btn_kumamoto.Name = "btn_kumamoto";
-            this.btn_kumamoto.Size = new System.Drawing.Size(21, 20);
+            this.btn_kumamoto.Size = new System.Drawing.Size(18, 20);
             this.btn_kumamoto.TabIndex = 11;
             this.btn_kumamoto.UseVisualStyleBackColor = false;
             this.btn_kumamoto.MouseLeave += new System.EventHandler(this.btn_kumamoto_MouseLeave);
@@ -102,9 +102,9 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.btn_oita.BackColor = System.Drawing.Color.Red;
             this.btn_oita.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_oita.Location = new System.Drawing.Point(227, 383);
+            this.btn_oita.Location = new System.Drawing.Point(239, 383);
             this.btn_oita.Name = "btn_oita";
-            this.btn_oita.Size = new System.Drawing.Size(21, 20);
+            this.btn_oita.Size = new System.Drawing.Size(18, 20);
             this.btn_oita.TabIndex = 10;
             this.btn_oita.UseVisualStyleBackColor = false;
             this.btn_oita.MouseLeave += new System.EventHandler(this.btn_oita_MouseLeave);
@@ -114,9 +114,9 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.btn_kobe.BackColor = System.Drawing.Color.Red;
             this.btn_kobe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_kobe.Location = new System.Drawing.Point(378, 370);
+            this.btn_kobe.Location = new System.Drawing.Point(390, 370);
             this.btn_kobe.Name = "btn_kobe";
-            this.btn_kobe.Size = new System.Drawing.Size(21, 20);
+            this.btn_kobe.Size = new System.Drawing.Size(18, 20);
             this.btn_kobe.TabIndex = 9;
             this.btn_kobe.UseVisualStyleBackColor = false;
             this.btn_kobe.MouseLeave += new System.EventHandler(this.btn_kobe_MouseLeave);
@@ -126,9 +126,9 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.btn_hanazona.BackColor = System.Drawing.Color.Red;
             this.btn_hanazona.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_hanazona.Location = new System.Drawing.Point(393, 395);
+            this.btn_hanazona.Location = new System.Drawing.Point(405, 395);
             this.btn_hanazona.Name = "btn_hanazona";
-            this.btn_hanazona.Size = new System.Drawing.Size(21, 20);
+            this.btn_hanazona.Size = new System.Drawing.Size(18, 20);
             this.btn_hanazona.TabIndex = 8;
             this.btn_hanazona.UseVisualStyleBackColor = false;
             this.btn_hanazona.MouseLeave += new System.EventHandler(this.btn_hanazona_MouseLeave);
@@ -138,9 +138,9 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.btn_toyota.BackColor = System.Drawing.Color.Red;
             this.btn_toyota.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_toyota.Location = new System.Drawing.Point(448, 398);
+            this.btn_toyota.Location = new System.Drawing.Point(460, 398);
             this.btn_toyota.Name = "btn_toyota";
-            this.btn_toyota.Size = new System.Drawing.Size(21, 20);
+            this.btn_toyota.Size = new System.Drawing.Size(18, 20);
             this.btn_toyota.TabIndex = 7;
             this.btn_toyota.UseVisualStyleBackColor = false;
             this.btn_toyota.MouseLeave += new System.EventHandler(this.btn_toyota_MouseLeave);
@@ -150,9 +150,9 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.btn_fukuroi.BackColor = System.Drawing.Color.Red;
             this.btn_fukuroi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_fukuroi.Location = new System.Drawing.Point(480, 403);
+            this.btn_fukuroi.Location = new System.Drawing.Point(492, 403);
             this.btn_fukuroi.Name = "btn_fukuroi";
-            this.btn_fukuroi.Size = new System.Drawing.Size(21, 20);
+            this.btn_fukuroi.Size = new System.Drawing.Size(18, 20);
             this.btn_fukuroi.TabIndex = 6;
             this.btn_fukuroi.UseVisualStyleBackColor = false;
             this.btn_fukuroi.MouseLeave += new System.EventHandler(this.btn_fukuroi_MouseLeave);
@@ -162,9 +162,9 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.btn_yokohama.BackColor = System.Drawing.Color.Red;
             this.btn_yokohama.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_yokohama.Location = new System.Drawing.Point(544, 399);
+            this.btn_yokohama.Location = new System.Drawing.Point(556, 399);
             this.btn_yokohama.Name = "btn_yokohama";
-            this.btn_yokohama.Size = new System.Drawing.Size(21, 20);
+            this.btn_yokohama.Size = new System.Drawing.Size(18, 20);
             this.btn_yokohama.TabIndex = 5;
             this.btn_yokohama.UseVisualStyleBackColor = false;
             this.btn_yokohama.MouseLeave += new System.EventHandler(this.btn_yokohama_MouseLeave);
@@ -174,9 +174,9 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.btn_tokyo.BackColor = System.Drawing.Color.Red;
             this.btn_tokyo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_tokyo.Location = new System.Drawing.Point(569, 390);
+            this.btn_tokyo.Location = new System.Drawing.Point(584, 390);
             this.btn_tokyo.Name = "btn_tokyo";
-            this.btn_tokyo.Size = new System.Drawing.Size(21, 20);
+            this.btn_tokyo.Size = new System.Drawing.Size(18, 20);
             this.btn_tokyo.TabIndex = 4;
             this.btn_tokyo.UseVisualStyleBackColor = false;
             this.btn_tokyo.MouseLeave += new System.EventHandler(this.btn_tokyo_MouseLeave);
@@ -186,9 +186,9 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.btn_kugamaya.BackColor = System.Drawing.Color.Red;
             this.btn_kugamaya.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_kugamaya.Location = new System.Drawing.Point(554, 375);
+            this.btn_kugamaya.Location = new System.Drawing.Point(564, 376);
             this.btn_kugamaya.Name = "btn_kugamaya";
-            this.btn_kugamaya.Size = new System.Drawing.Size(21, 20);
+            this.btn_kugamaya.Size = new System.Drawing.Size(18, 20);
             this.btn_kugamaya.TabIndex = 3;
             this.btn_kugamaya.UseVisualStyleBackColor = false;
             this.btn_kugamaya.MouseLeave += new System.EventHandler(this.btn_kugamaya_MouseLeave);
@@ -198,11 +198,12 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.btn_sapporo.BackColor = System.Drawing.Color.Red;
             this.btn_sapporo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_sapporo.Location = new System.Drawing.Point(718, 105);
+            this.btn_sapporo.Location = new System.Drawing.Point(731, 105);
             this.btn_sapporo.Name = "btn_sapporo";
-            this.btn_sapporo.Size = new System.Drawing.Size(21, 20);
+            this.btn_sapporo.Size = new System.Drawing.Size(18, 20);
             this.btn_sapporo.TabIndex = 0;
             this.btn_sapporo.UseVisualStyleBackColor = false;
+            this.btn_sapporo.Click += new System.EventHandler(this.btn_sapporo_Click);
             this.btn_sapporo.MouseLeave += new System.EventHandler(this.btn_sapporo_MouseLeave);
             this.btn_sapporo.MouseHover += new System.EventHandler(this.btn_sapporo_MouseHover);
             // 
@@ -268,9 +269,9 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.btn_kamaishi.BackColor = System.Drawing.Color.Red;
             this.btn_kamaishi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_kamaishi.Location = new System.Drawing.Point(677, 244);
+            this.btn_kamaishi.Location = new System.Drawing.Point(689, 244);
             this.btn_kamaishi.Name = "btn_kamaishi";
-            this.btn_kamaishi.Size = new System.Drawing.Size(21, 20);
+            this.btn_kamaishi.Size = new System.Drawing.Size(18, 20);
             this.btn_kamaishi.TabIndex = 2;
             this.btn_kamaishi.UseVisualStyleBackColor = false;
             this.btn_kamaishi.MouseLeave += new System.EventHandler(this.btn_kamaishi_MouseLeave);
