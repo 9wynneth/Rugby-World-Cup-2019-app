@@ -204,14 +204,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Show_details.resx">
       <DependentUpon>Show_details.cs</DependentUpon>
     </EmbeddedResource>
@@ -413,6 +407,72 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Referee_A001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\England.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Argentina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Australia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Canada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fiji flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\France.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ireland.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Italy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Japan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Russia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Samoa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scotland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\South Africa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ukraine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tonga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Papua New Guinea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Namibia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hong Kong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Georgia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Zealand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wales.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
