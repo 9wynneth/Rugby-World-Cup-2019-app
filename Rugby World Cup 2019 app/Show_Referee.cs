@@ -60,16 +60,18 @@ namespace Rugby_World_Cup_2019_app
                 refereeNationABV.Location = new Point(450, refereeName.Location.Y);
                 refereeNationABV.BackColor = Color.Transparent;
                 refereeNationABV.ForeColor = Color.White;
-/*
+
                 PictureBox nationalityPic = new PictureBox();
                 nationalityPic.Name = "picBox_flag"+i;
-                nationalityPic.Size = new Size(100, 100);
-                nationalityPic.Location = new Point(350, refereeNationABV.Location.Y);
+                nationalityPic.Size = new Size(50, 50);
+                nationalityPic.Location = new Point(350, refereeNationABV.Location.Y-10);
 
-                string getPic = $"Referee_{refereeID}.png";
-                nationalityPic.Image = Properties.Resources.getPic
+                string getPic = $"Referee_{refereeID.Text}";
+                object O = Properties.Resources.ResourceManager.GetObject(getPic); //Return an object from the image chan1.png in the project
+                nationalityPic.Image = (Image)O;
+                nationalityPic.BackColor = Color.Transparent;
                 nationalityPic.SizeMode = PictureBoxSizeMode.StretchImage;
-*/
+
                 Panel pnl_refereeList = new Panel();
                 pnl_refereeList.Name = "pnl_referee" + i;
                 refereeList.Add(pnl_refereeList);
