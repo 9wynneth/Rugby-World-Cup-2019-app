@@ -28,27 +28,24 @@ namespace Rugby_World_Cup_2019_app
         private void Show_Referee_Load(object sender, EventArgs e)
         {
             sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
-            sqlQuery = $"SELECT r.referee_id as 'REFEREE ID', r.referee_name as 'REFEREE NAME', n.country_name as NATIONALITY FROM referee r, nationality n WHERE n.nationality_id = r.nationality_id; ";
+            sqlQuery = $"SELECT r.referee_id as 'REFEREE ID', r.referee_name as 'REFEREE NAME', n.country_name as NATIONALITY, n.country_code as ABV FROM referee r, nationality n WHERE n.nationality_id = r.nationality_id; ";
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);
             sqlAdapter.Fill(dtReferee);
 
             List<Panel> refereeList = new List<Panel>();
-            for (int i = 0; i <= dtReferee.Rows.Count - 1; i++)
+            for (int i = 0; i <= dtReferee.Rows.Count-1; i++)
             {
-                Panel pnl_refereeList = new Panel();
-                pnl_refereeList.Name = "pnl_referee" + i;
-                refereeList.Add(pnl_refereeList);
                 
                 Label refereeID = new Label();
                 refereeID.Text = dtReferee.Rows[i][0].ToString();
-                refereeID.Location = new Point(10, refereeID.Location.Y + 10);
+                refereeID.Location = new Point(10, refereeID.Location.Y + 5);
                 refereeID.BackColor = Color.Transparent;
                 refereeID.ForeColor = Color.White;
                 
                 Label refereeName = new Label();
                 refereeName.Text = dtReferee.Rows[i][1].ToString();
-                refereeName.Location = new Point(10,refereeName.Location.Y+25);
+                refereeName.Location = new Point(10,refereeName.Location.Y+35);
                 refereeName.BackColor = Color.Transparent;
                 refereeName.ForeColor = Color.White;
 
@@ -58,13 +55,33 @@ namespace Rugby_World_Cup_2019_app
                 refereeNationality.BackColor = Color.Transparent;
                 refereeNationality.ForeColor = Color.White;
 
+                Label refereeNationABV = new Label();
+                refereeNationABV.Text = dtReferee.Rows[i][3].ToString();
+                refereeNationABV.Location = new Point(450, refereeName.Location.Y);
+                refereeNationABV.BackColor = Color.Transparent;
+                refereeNationABV.ForeColor = Color.White;
+/*
+                PictureBox nationalityPic = new PictureBox();
+                nationalityPic.Name = "picBox_flag"+i;
+                nationalityPic.Size = new Size(100, 100);
+                nationalityPic.Location = new Point(350, refereeNationABV.Location.Y);
+
+                string getPic = $"Referee_{refereeID}.png";
+                nationalityPic.Image = Properties.Resources.getPic
+                nationalityPic.SizeMode = PictureBoxSizeMode.StretchImage;
+*/
+                Panel pnl_refereeList = new Panel();
+                pnl_refereeList.Name = "pnl_referee" + i;
+                refereeList.Add(pnl_refereeList);
                 pnl_refereeList.Location = new Point(80, i * 100);
-                pnl_refereeList.Size = new Size(550, 90);  
+                pnl_refereeList.Size = new Size(500, 90);  
+                pnl_refereeList.Controls.Add(refereeID);
                 pnl_refereeList.Controls.Add(refereeName);
-                pnl_refereeList.Controls.Add(refereeName);
+                pnl_refereeList.Controls.Add(refereeNationality);
+                pnl_refereeList.Controls.Add(refereeNationABV);
+                pnl_refereeList.Controls.Add(nationalityPic);
                 pnl_refereeList.BackgroundImage = Properties.Resources.image_2_;
                 
-
                 this.Controls.Add(pnl_refereeList);
             }
         }

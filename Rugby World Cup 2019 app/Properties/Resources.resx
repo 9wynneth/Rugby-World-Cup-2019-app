@@ -139,8 +139,8 @@
   <data name="imageedit_4_4530618903(1)(1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageedit_4_4530618903(1)(1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="manager-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\manager-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Kumagaya Rugby Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kumagaya Rugby Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Shizuoka Stadium Ecopa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Shizuoka Stadium Ecopa1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,11 +226,14 @@
   <data name="Tokyo Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tokyo Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bgintro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgintro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="key-4-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\key-4-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Kumagaya Rugby Stadium" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Kumagaya Rugby Stadium1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="manager-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\manager-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,7 +259,40 @@
   <data name="image(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image(1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bgintro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bgintro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Referee_R001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Referee_R001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Referee_W001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Referee_W001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Referee_P002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Referee_P002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Referee_P001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Referee_P001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Referee_N002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Referee_N002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Referee_N001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Referee_N001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Referee_M001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Referee_M001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Referee_L001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Referee_L001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Referee_J001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Referee_J001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Referee_J002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Referee_J002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Referee_B001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Referee_B001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Referee_A001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Referee_A001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

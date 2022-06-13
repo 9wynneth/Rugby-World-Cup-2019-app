@@ -378,5 +378,41 @@
   <ItemGroup>
     <None Include="Resources\bgintro.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Referee_R001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Referee_W001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Referee_P002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Referee_P001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Referee_N002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Referee_N001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Referee_M001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Referee_L001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Referee_J001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Referee_J002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Referee_B001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Referee_A001.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

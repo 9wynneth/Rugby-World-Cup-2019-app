@@ -37,7 +37,7 @@ namespace Rugby_World_Cup_2019_app
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.Name = "Show_Referee";
-            this.Size = new System.Drawing.Size(1109, 743);
+            this.Size = new System.Drawing.Size(1109, 774);
             this.Load += new System.EventHandler(this.Show_Referee_Load);
             this.ResumeLayout(false);
 

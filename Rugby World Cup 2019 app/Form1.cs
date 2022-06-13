@@ -55,7 +55,6 @@ namespace Rugby_World_Cup_2019_app
         */
         private void Form_Intro_Load(object sender, EventArgs e)
         {
-          
             //playMusic();
         }
 
