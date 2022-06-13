@@ -18,13 +18,13 @@ namespace Rugby_World_Cup_2019_app
             InitializeComponent();
         }
 
-        MySqlConnection sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
+        MySqlConnection sqlConnect;
         MySqlCommand sqlCommand;
         MySqlDataAdapter sqlAdapter;
         String sqlQuery;
 
-        Show_tournamentStats showStats = new Show_tournamentStats();
-        Show_stadium showStadium = new Show_stadium();
+        //Show_tournamentStats showStats = new Show_tournamentStats();
+        //Show_stadium showStadium = new Show_stadium();
 
         DataTable dtRedCardDetail = new DataTable();
         DataTable dtStadium = new DataTable();
@@ -49,12 +49,14 @@ namespace Rugby_World_Cup_2019_app
 
         private void Show_details_Load(object sender, EventArgs e)
         {
+            sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
             StyleDatagridview();
             sqlQuery = "SELECT p.player_name as Player, n.country_name as Nationality ,Count(md.type_matchDetail) as 'Red Card' FROM player p, matchDetail md, nationality n WHERE p.player_id = md.player_id and n.nationality_id = p.nationality_id and md.type_matchDetail = 'RED CARD' group by 1 order by 2 desc; ";
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);
             sqlAdapter.Fill(dtRedCardDetail);
           
+            
             MessageBox.Show(Show_tournamentStats.detailRedCards.ToString());
             MessageBox.Show(Show_stadium.sapporo.ToString());
 

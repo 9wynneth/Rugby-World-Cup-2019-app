@@ -19,7 +19,7 @@ namespace Rugby_World_Cup_2019_app
             
         }
 
-        MySqlConnection sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
+        MySqlConnection sqlConnect ;
         MySqlCommand sqlCommand;
         MySqlDataAdapter sqlAdapter;
         String sqlQuery;
@@ -31,6 +31,7 @@ namespace Rugby_World_Cup_2019_app
 
         private void Show_tournamentStats_Load(object sender, EventArgs e)
         {
+            sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
             sqlQuery = "SELECT Count(md.type_matchDetail) FROM matchDetail md WHERE md.type_matchDetail = 'RED CARD'; ";
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);

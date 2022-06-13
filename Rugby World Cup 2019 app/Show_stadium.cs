@@ -20,7 +20,7 @@ namespace Rugby_World_Cup_2019_app
 
 
 
-        public MySqlConnection sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dbd_07_rwc2019");
+        public MySqlConnection sqlConnect;
         public MySqlCommand sqlCommand;
         public MySqlDataAdapter sqlAdapter;
         String sqlQuery;
@@ -29,6 +29,7 @@ namespace Rugby_World_Cup_2019_app
 
         private void Show_stadium_Load(object sender, EventArgs e)
         {
+            sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
             hide();
             sqlQuery = "SELECT s.stadium_name, s.city, Concat(left(s.capacity, 3), ',',right(s.capacity,3)) as capacity, s.stadium_id FROM stadium s; ";
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);

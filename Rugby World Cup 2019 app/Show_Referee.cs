@@ -18,7 +18,7 @@ namespace Rugby_World_Cup_2019_app
             InitializeComponent();
         }
 
-        MySqlConnection sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
+        MySqlConnection sqlConnect;
         MySqlCommand sqlCommand;
         MySqlDataAdapter sqlAdapter;
         String sqlQuery;
@@ -27,6 +27,7 @@ namespace Rugby_World_Cup_2019_app
 
         private void Show_Referee_Load(object sender, EventArgs e)
         {
+            sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
             sqlQuery = $"SELECT * FROM REFEREE ";
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);
@@ -40,10 +41,21 @@ namespace Rugby_World_Cup_2019_app
                 refereeList.Add(pnl_refereeList);
                 Label refereeName = new Label();
                 refereeName.Text = dtReferee.Rows[i][1].ToString();
-             
+                refereeName.BackColor = Color.Transparent;
+                refereeName.ForeColor = Color.White;
+                Label referee = new Label();
+                referee.Text = dtReferee.Rows[i][2].ToString();
+                referee.Location = new Point(10,refereeName.Location.Y+25);
+                referee.BackColor = Color.Transparent;
+                referee.ForeColor = Color.White;
+
                 pnl_refereeList.Location = new Point(10, i * 100);
                 pnl_refereeList.Size = new Size(200, 90);  // just an example
                 pnl_refereeList.Controls.Add(refereeName);
+                pnl_refereeList.Controls.Add(referee);
+                pnl_refereeList.BackColor = Color.Black;
+               
+
                 this.Controls.Add(pnl_refereeList);
 
             }
