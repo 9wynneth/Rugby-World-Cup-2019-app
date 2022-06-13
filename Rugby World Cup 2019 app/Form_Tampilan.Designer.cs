@@ -68,7 +68,6 @@ namespace Rugby_World_Cup_2019_app
             this.show_Referee1 = new Rugby_World_Cup_2019_app.Show_Referee();
             this.show_stadium1 = new Rugby_World_Cup_2019_app.Show_stadium();
             this.show_tournamentStats1 = new Rugby_World_Cup_2019_app.Show_tournamentStats();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel9.SuspendLayout();
             this.pnl_top.SuspendLayout();
             this.pnl_homeContainer.SuspendLayout();
@@ -88,7 +87,6 @@ namespace Rugby_World_Cup_2019_app
             this.pnl_return.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_menu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_logo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel9
@@ -246,7 +244,6 @@ namespace Rugby_World_Cup_2019_app
             // 
             // pnl_edit
             // 
-            this.pnl_edit.Controls.Add(this.pictureBox1);
             this.pnl_edit.Controls.Add(this.show_Referee1);
             this.pnl_edit.Controls.Add(this.show_stadium1);
             this.pnl_edit.Controls.Add(this.show_tournamentStats1);
@@ -520,14 +517,6 @@ namespace Rugby_World_Cup_2019_app
             this.show_tournamentStats1.Size = new System.Drawing.Size(1109, 743);
             this.show_tournamentStats1.TabIndex = 2;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(828, 189);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
             // Form_Tampilan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -556,7 +545,6 @@ namespace Rugby_World_Cup_2019_app
             this.pnl_return.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picBox_menu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_logo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -600,6 +588,5 @@ namespace Rugby_World_Cup_2019_app
         private System.Windows.Forms.Button btn_stadium;
         private Show_stadium show_stadium1;
         private Show_Referee show_Referee1;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
