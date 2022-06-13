@@ -62,7 +62,6 @@ namespace Rugby_World_Cup_2019_app
         private void btn_details_redCards_Click(object sender, EventArgs e)
         {
             detailRedCards = false;
-            
             showDetails.ShowDialog();
             
         }

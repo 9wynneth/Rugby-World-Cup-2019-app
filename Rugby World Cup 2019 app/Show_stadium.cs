@@ -264,16 +264,90 @@ namespace Rugby_World_Cup_2019_app
 
         Show_details showDetails = new Show_details();
 
+        public static string ID = "";
         public static bool sapporo=true;
-        public static string sapporoID="";
-      
+        public static bool kamaishi=true;
+        public static bool kugamaya = true;
+        public static bool tokyo = true;
+        public static bool yokohama = true;
+        public static bool fukuroi = true;
+        public static bool toyota = true;
+        public static bool hanazona = true;
+        public static bool kobe = true;
+        public static bool oita = true;
+        public static bool fukuoka = true;
+        public static bool kumamoto = true;
+
         public void btn_sapporo_Click(object sender, EventArgs e)
         {
             sapporo = false;
-            sapporoID= dtStadium.Rows[9][3].ToString();
-            
             showDetails.ShowDialog();
-          
+        }
+
+        private void btn_kamaishi_Click(object sender, EventArgs e)
+        {
+            kamaishi = false;
+            showDetails.ShowDialog();
+        }
+
+        private void btn_kugamaya_Click(object sender, EventArgs e)
+        {
+            kugamaya = false;
+            showDetails.ShowDialog();
+        }
+
+        private void btn_tokyo_Click(object sender, EventArgs e)
+        {
+            tokyo = false;
+            showDetails.ShowDialog();
+        }
+
+        private void btn_yokohama_Click(object sender, EventArgs e)
+        {
+            yokohama = false;
+            showDetails.ShowDialog();
+        }
+
+        private void btn_fukuroi_Click(object sender, EventArgs e)
+        {
+            fukuroi = false;
+            showDetails.ShowDialog();
+        }
+
+        private void btn_toyota_Click(object sender, EventArgs e)
+        {
+            toyota = false;
+            showDetails.ShowDialog();
+        }
+
+        private void btn_hanazona_Click(object sender, EventArgs e)
+        {
+            hanazona = false;
+            showDetails.ShowDialog();
+        }
+
+        private void btn_kobe_Click(object sender, EventArgs e)
+        {
+            kobe = false;
+            showDetails.ShowDialog();
+        }
+
+        private void btn_oita_Click(object sender, EventArgs e)
+        {
+            oita = false;
+            showDetails.ShowDialog();
+        }
+
+        private void btn_fukuoka_Click(object sender, EventArgs e)
+        {
+            fukuoka = false;
+            showDetails.ShowDialog();
+        }
+
+        private void btn_kumamoto_Click(object sender, EventArgs e)
+        {
+            kumamoto = false;
+            showDetails.ShowDialog();
         }
     }
 }

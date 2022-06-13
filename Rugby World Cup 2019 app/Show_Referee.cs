@@ -39,10 +39,12 @@ namespace Rugby_World_Cup_2019_app
                 Panel pnl_refereeList = new Panel();
                 pnl_refereeList.Name = "panel" + i;
                 refereeList.Add(pnl_refereeList);
+                
                 Label refereeName = new Label();
                 refereeName.Text = dtReferee.Rows[i][1].ToString();
                 refereeName.BackColor = Color.Transparent;
                 refereeName.ForeColor = Color.White;
+                
                 Label referee = new Label();
                 referee.Text = dtReferee.Rows[i][2].ToString();
                 referee.Location = new Point(10,refereeName.Location.Y+25);
@@ -55,9 +57,7 @@ namespace Rugby_World_Cup_2019_app
                 pnl_refereeList.Controls.Add(referee);
                 pnl_refereeList.BackColor = Color.Black;
                
-
                 this.Controls.Add(pnl_refereeList);
-
             }
         }
 
