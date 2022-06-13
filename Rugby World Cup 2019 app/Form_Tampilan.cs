@@ -126,17 +126,32 @@ namespace Rugby_World_Cup_2019_app
         {
             this.Close();
         }
+        private void NormalColor()
+        {
+            btn_stadium.BackColor = Color.FromArgb(123, 51, 144);
+            btn_referee.BackColor = Color.FromArgb(123, 51, 144);
+            btn_team.BackColor = Color.FromArgb(123, 51, 144);
+            btn_player.BackColor = Color.FromArgb(123, 51, 144);
+            btn_manager.BackColor = Color.FromArgb(123, 51, 144);
+            btn_tournamentStats.BackColor = Color.FromArgb(123, 51, 144);
+            btn_match.BackColor = Color.FromArgb(123, 51, 144);
+            
+        }
 
         private void btn_stadium_Click(object sender, EventArgs e)
         {
             hide();
+            NormalColor();
             show_stadium1.Visible = true;
+            btn_stadium.BackColor = Color.FromArgb(131, 65, 164);
         }
 
         private void btn_referee_Click(object sender, EventArgs e)
         {
             hide();
+            NormalColor();
             show_Referee1.Visible = true;
+            btn_referee.BackColor = Color.FromArgb(131, 65, 164);
         }
 
    

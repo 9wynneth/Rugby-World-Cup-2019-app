@@ -28,7 +28,7 @@ namespace Rugby_World_Cup_2019_app
         private void Show_Referee_Load(object sender, EventArgs e)
         {
             sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
-            sqlQuery = $"SELECT * FROM REFEREE ";
+            sqlQuery = $"SELECT r.referee_id as 'REFEREE ID', r.referee_name as 'REFEREE NAME', n.country_name as NATIONALITY FROM referee r, nationality n WHERE n.nationality_id = r.nationality_id; ";
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);
             sqlAdapter.Fill(dtReferee);
@@ -37,26 +37,34 @@ namespace Rugby_World_Cup_2019_app
             for (int i = 0; i <= dtReferee.Rows.Count - 1; i++)
             {
                 Panel pnl_refereeList = new Panel();
-                pnl_refereeList.Name = "panel" + i;
+                pnl_refereeList.Name = "pnl_referee" + i;
                 refereeList.Add(pnl_refereeList);
+                
+                Label refereeID = new Label();
+                refereeID.Text = dtReferee.Rows[i][0].ToString();
+                refereeID.Location = new Point(10, refereeID.Location.Y + 10);
+                refereeID.BackColor = Color.Transparent;
+                refereeID.ForeColor = Color.White;
                 
                 Label refereeName = new Label();
                 refereeName.Text = dtReferee.Rows[i][1].ToString();
+                refereeName.Location = new Point(10,refereeName.Location.Y+25);
                 refereeName.BackColor = Color.Transparent;
                 refereeName.ForeColor = Color.White;
-                
-                Label referee = new Label();
-                referee.Text = dtReferee.Rows[i][2].ToString();
-                referee.Location = new Point(10,refereeName.Location.Y+25);
-                referee.BackColor = Color.Transparent;
-                referee.ForeColor = Color.White;
 
-                pnl_refereeList.Location = new Point(10, i * 100);
-                pnl_refereeList.Size = new Size(200, 90);  // just an example
+                Label refereeNationality = new Label();
+                refereeNationality.Text = dtReferee.Rows[i][2].ToString();
+                refereeNationality.Location = new Point(25, refereeName.Location.Y+25);
+                refereeNationality.BackColor = Color.Transparent;
+                refereeNationality.ForeColor = Color.White;
+
+                pnl_refereeList.Location = new Point(80, i * 100);
+                pnl_refereeList.Size = new Size(550, 90);  
                 pnl_refereeList.Controls.Add(refereeName);
-                pnl_refereeList.Controls.Add(referee);
-                pnl_refereeList.BackColor = Color.Black;
-               
+                pnl_refereeList.Controls.Add(refereeName);
+                pnl_refereeList.BackgroundImage = Properties.Resources.image_2_;
+                
+
                 this.Controls.Add(pnl_refereeList);
             }
         }

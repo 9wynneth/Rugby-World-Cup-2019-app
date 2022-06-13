@@ -41,7 +41,7 @@ namespace Rugby_World_Cup_2019_app
             this.dGV_ShowDetails.Name = "dGV_ShowDetails";
             this.dGV_ShowDetails.RowHeadersWidth = 62;
             this.dGV_ShowDetails.RowTemplate.Height = 28;
-            this.dGV_ShowDetails.Size = new System.Drawing.Size(709, 347);
+            this.dGV_ShowDetails.Size = new System.Drawing.Size(1015, 347);
             this.dGV_ShowDetails.TabIndex = 0;
             // 
             // lbl_topicDetails
@@ -57,7 +57,7 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1098, 450);
             this.Controls.Add(this.lbl_topicDetails);
             this.Controls.Add(this.dGV_ShowDetails);
             this.Name = "Show_details";

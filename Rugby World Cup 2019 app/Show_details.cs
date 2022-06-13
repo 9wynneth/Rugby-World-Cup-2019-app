@@ -51,7 +51,7 @@ namespace Rugby_World_Cup_2019_app
         private void showDetailMatch()
         {
             DataTable dtStadium = new DataTable();
-            sqlQuery = $"SELECT right(m.match_id, 2) as `MATCH NO.  ` , m.match_date as DATE, r.referee_name as REFEREE, Concat((SELECT t.team_name FROM team t WHERE t.team_id = m.teamHome_id), ' VS ',  (SELECT t.team_name FROM team t WHERE t.team_id = m.teamAway_id)) as `MATCH`,  concat(m.goal_home, ' - ', m.goal_away) as SCORE FROM stadium s, `match` m, referee r WHERE m.referee_id = r.referee_id and s.stadium_id = m.stadium_id and s.stadium_id = '{Show_stadium.ID}' group by 1;  ";
+            sqlQuery = $"SELECT right(m.match_id, 2) as `MATCH NO.` , Concat(date_format(m.match_date,' %a'),',',lpad(date_format(m.match_date,'%e %b %Y'), 12,' ')) as DATE, r.referee_name as REFEREE, Concat((SELECT t.team_name FROM team t WHERE t.team_id = m.teamHome_id), ' VS ',  (SELECT t.team_name FROM team t WHERE t.team_id = m.teamAway_id)) as `MATCH`,  concat(m.goal_home, ' - ', m.goal_away) as SCORE FROM stadium s, `match` m, referee r WHERE m.referee_id = r.referee_id and s.stadium_id = m.stadium_id and s.stadium_id='{Show_stadium.ID}' group by 1 ";
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);
             sqlAdapter.Fill(dtStadium);
