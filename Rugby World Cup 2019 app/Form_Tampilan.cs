@@ -115,6 +115,7 @@ namespace Rugby_World_Cup_2019_app
             show_stadium1.Visible = false;
             show_Referee1.Visible = false;
             show_Team1.Visible = false;
+            show_Player1.Visible = false;
         }
         private void btn_tournamentStats_Click(object sender, EventArgs e)
         {
@@ -165,6 +166,14 @@ namespace Rugby_World_Cup_2019_app
             NormalColor();
             show_Team1.Visible = true;
             btn_team.BackColor = Color.FromArgb(131, 65, 164);
+        }
+
+        private void btn_player_Click(object sender, EventArgs e)
+        {
+            hide();
+            NormalColor();
+            show_Player1.Visible = true;
+            btn_player.BackColor = Color.FromArgb(131, 65, 164);
         }
     }
 }

@@ -147,6 +147,12 @@
     <Compile Include="Show_details.Designer.cs">
       <DependentUpon>Show_details.cs</DependentUpon>
     </Compile>
+    <Compile Include="Show_Player.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Show_Player.Designer.cs">
+      <DependentUpon>Show_Player.cs</DependentUpon>
+    </Compile>
     <Compile Include="Show_Referee.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -220,6 +226,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Show_details.resx">
       <DependentUpon>Show_details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_Player.resx">
+      <DependentUpon>Show_Player.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Show_Referee.resx">
       <DependentUpon>Show_Referee.cs</DependentUpon>
