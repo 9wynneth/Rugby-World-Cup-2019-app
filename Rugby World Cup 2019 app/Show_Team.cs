@@ -45,6 +45,7 @@ namespace Rugby_World_Cup_2019_app
                 teamID.Location = new Point(10, teamID.Location.Y + 5);
                 teamID.BackColor = Color.Transparent;
                 teamID.ForeColor = Color.White;
+                
 
                 Label teamName = new Label();
                 teamName.Text = dtTeam.Rows[i][1].ToString();
@@ -62,7 +63,7 @@ namespace Rugby_World_Cup_2019_app
                 PictureBox teamLogo = new PictureBox();
                 teamLogo.Name = "picBox_referee" + i;
                 teamLogo.Size = new Size(80, 80);
-                teamLogo.Location = new Point(teamName.Location.X+10, teamName.Location.Y+35);
+                teamLogo.Location = new Point(teamName.Location.X+80, teamName.Location.Y - 25);
                 string picTeamLogo = $"Team_{teamID.Text}";
                 object getPicTeamLogo = Properties.Resources.ResourceManager.GetObject(picTeamLogo); ; //Return an object from the image chan1.png in the project
                 teamLogo.Image = (Image)getPicTeamLogo;
@@ -102,14 +103,14 @@ namespace Rugby_World_Cup_2019_app
 
                 Label teamAssManager = new Label();
                 teamAssManager.Text = dtTeam.Rows[i][4].ToString();
-                teamAssManager.Location = new Point(300, lbl_wordAss.Location.Y+15);
+                teamAssManager.Location = new Point(300, lbl_wordAss.Location.Y + 15);
                 teamAssManager.BackColor = Color.Transparent;
                 teamAssManager.ForeColor = Color.White;
 
                 PictureBox assPic = new PictureBox();
                 assPic.Name = "picBox_ass" + i;
                 assPic.Size = new Size(55, 55);
-                assPic.Location = new Point(200, teamAssManager.Location.Y + 15);
+                assPic.Location = new Point(200, managerPic.Location.Y);
                 string assID = dtTeam.Rows[i][6].ToString();
                 string picAss = $"AssManager_{assID}";
                 object getPicAss = Properties.Resources.ResourceManager.GetObject(picAss);
@@ -131,6 +132,7 @@ namespace Rugby_World_Cup_2019_app
                 pnl_teamList.Controls.Add(lbl_wordManager);
                 pnl_teamList.Controls.Add(managerPic);
                 pnl_teamList.Controls.Add(assPic);
+                pnl_teamList.Controls.Add(teamLogo);
 
                 pnl_teamList.BackgroundImage = Properties.Resources.image_2_;
 
