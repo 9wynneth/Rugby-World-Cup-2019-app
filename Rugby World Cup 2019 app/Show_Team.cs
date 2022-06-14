@@ -59,6 +59,15 @@ namespace Rugby_World_Cup_2019_app
                 teamRank.ForeColor = Color.White;
                 teamRank.Font = new Font("Arial", 12, FontStyle.Regular);
 
+                PictureBox teamLogo = new PictureBox();
+                teamLogo.Name = "picBox_referee" + i;
+                teamLogo.Size = new Size(80, 80);
+                teamLogo.Location = new Point(teamName.Location.X+10, teamName.Location.Y+35);
+                string picTeamLogo = $"Team_{teamID.Text}";
+                object getPicTeamLogo = Properties.Resources.ResourceManager.GetObject(picTeamLogo); ; //Return an object from the image chan1.png in the project
+                teamLogo.Image = (Image)getPicTeamLogo;
+                teamLogo.BackColor = Color.Transparent;
+                teamLogo.SizeMode = PictureBoxSizeMode.StretchImage;
 
                 Label lbl_wordManager = new Label();
                 lbl_wordManager.Text = "MANAGER:";
@@ -73,11 +82,11 @@ namespace Rugby_World_Cup_2019_app
                 teamManager.ForeColor = Color.White;
 
                 PictureBox managerPic = new PictureBox();
-                managerPic.Name = "picBox_referee" + i;
-                managerPic.Size = new Size(80, 80);
-                managerPic.Location = new Point(200, teamManager.Location.Y + 10);
+                managerPic.Name = "picBox_manager" + i;
+                managerPic.Size = new Size(55, 55);
+                managerPic.Location = new Point(200, teamManager.Location.Y + 15);
                 string managerID = dtTeam.Rows[i][5].ToString();
-                string picManager = $"Manager_{managerID}.png";
+                string picManager = $"Manager_{managerID}";
                 object getPicManager = Properties.Resources.ResourceManager.GetObject(picManager); 
                 managerPic.Image = (Image)getPicManager;
                 managerPic.BackColor = Color.Transparent;
@@ -97,9 +106,19 @@ namespace Rugby_World_Cup_2019_app
                 teamAssManager.BackColor = Color.Transparent;
                 teamAssManager.ForeColor = Color.White;
 
+                PictureBox assPic = new PictureBox();
+                assPic.Name = "picBox_ass" + i;
+                assPic.Size = new Size(55, 55);
+                assPic.Location = new Point(200, teamAssManager.Location.Y + 15);
+                string assID = dtTeam.Rows[i][6].ToString();
+                string picAss = $"AssManager_{assID}";
+                object getPicAss = Properties.Resources.ResourceManager.GetObject(picAss);
+                assPic.Image = (Image) getPicAss;
+                assPic.BackColor = Color.Transparent;
+                assPic.SizeMode = PictureBoxSizeMode.StretchImage;
 
                 Panel pnl_teamList = new Panel();
-                pnl_teamList.Name = "pnl_referee" + i;
+                pnl_teamList.Name = "pnl_team" + i;
                 teamList.Add(pnl_teamList);
                 pnl_teamList.Location = new Point(80, i * 100 + 30);
                 pnl_teamList.Size = new Size(450, 90);
@@ -110,7 +129,9 @@ namespace Rugby_World_Cup_2019_app
                 pnl_teamList.Controls.Add(teamManager);
                 pnl_teamList.Controls.Add(lbl_wordAss);
                 pnl_teamList.Controls.Add(lbl_wordManager);
-             
+                pnl_teamList.Controls.Add(managerPic);
+                pnl_teamList.Controls.Add(assPic);
+
                 pnl_teamList.BackgroundImage = Properties.Resources.image_2_;
 
                 this.Controls.Add(pnl_teamList);
