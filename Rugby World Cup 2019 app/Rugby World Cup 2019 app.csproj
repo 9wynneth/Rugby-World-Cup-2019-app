@@ -159,6 +159,12 @@
     <Compile Include="Show_stadium.Designer.cs">
       <DependentUpon>Show_stadium.cs</DependentUpon>
     </Compile>
+    <Compile Include="Show_Team.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Show_Team.Designer.cs">
+      <DependentUpon>Show_Team.cs</DependentUpon>
+    </Compile>
     <Compile Include="Show_tournamentStats.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -220,6 +226,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Show_stadium.resx">
       <DependentUpon>Show_stadium.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_Team.resx">
+      <DependentUpon>Show_Team.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Show_tournamentStats.resx">
       <DependentUpon>Show_tournamentStats.cs</DependentUpon>
@@ -533,6 +542,216 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\imageedit_3_32405762432.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_A001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_D001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_D002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_E003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_G002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_G004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_H001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_I001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_I002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_L001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_M002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_M003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_M004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_N001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_N002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_P001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_R002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_S002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_T002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssManager_V002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormerManager_B001%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormerManager_B001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormerManager_C001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormerManager_C002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormerManager_J002%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormerManager_J002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormerManager_K002%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormerManager_K002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormerManager_R003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormerManager_S003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_C003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_E001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_E002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_G001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_G003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_J001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_J003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_J004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_J005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_K001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_L002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_M001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_M005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_M006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_P002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_R001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_S001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_T001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_V001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager_W001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_A001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_A002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_C001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_E001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_F001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_F002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_G001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_I001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_I002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_J001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_N001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_N002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_R001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_S001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_S002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_S003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_T001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_U001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_U002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_W001.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

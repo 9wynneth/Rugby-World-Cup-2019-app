@@ -44,7 +44,7 @@ namespace Rugby_World_Cup_2019_app
             {
                 Label refereeID = new Label();
                 refereeID.Text = dtReferee.Rows[i][0].ToString();
-                refereeID.Location = new Point(10, refereeID.Location.Y + 15);
+                refereeID.Location = new Point(10, refereeID.Location.Y + 5);
                 refereeID.BackColor = Color.Transparent;
                 refereeID.ForeColor = Color.White;
 
@@ -82,7 +82,6 @@ namespace Rugby_World_Cup_2019_app
                 nationalityPic.Location = new Point(300, refereeNationABV.Location.Y - 15);
                 string picNameFlag = refereeNationality.Text;
                 picNameFlag =  picNameFlag.Replace(" ", "_");
-               
                 object getPicFlag = Properties.Resources.ResourceManager.GetObject(picNameFlag); //Return an object from the image chan1.png in the project
                 nationalityPic.Image = (Image)getPicFlag;
                 nationalityPic.BackColor = Color.Transparent;
@@ -91,7 +90,7 @@ namespace Rugby_World_Cup_2019_app
                 Panel pnl_refereeList = new Panel();
                 pnl_refereeList.Name = "pnl_referee" + i;
                 refereeList.Add(pnl_refereeList);
-                pnl_refereeList.Location = new Point(80, i * 100);
+                pnl_refereeList.Location = new Point(80, i * 100 + 30);
                 pnl_refereeList.Size = new Size(500, 90);
                 pnl_refereeList.Controls.Add(refereeID);
                 pnl_refereeList.Controls.Add(refereeName);
