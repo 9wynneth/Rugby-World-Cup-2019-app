@@ -51,6 +51,9 @@ namespace Rugby_World_Cup_2019_app
             this.pnl_edit = new System.Windows.Forms.Panel();
             this.flowLayoutPanelLeftSideTampilan = new System.Windows.Forms.FlowLayoutPanel();
             this.pnl_return = new System.Windows.Forms.Panel();
+            this.show_stadium1 = new Rugby_World_Cup_2019_app.Show_stadium();
+            this.show_Referee1 = new Rugby_World_Cup_2019_app.Show_Referee();
+            this.show_tournamentStats1 = new Rugby_World_Cup_2019_app.Show_tournamentStats();
             this.picBox_menu = new System.Windows.Forms.PictureBox();
             this.picBox_logo = new System.Windows.Forms.PictureBox();
             this.btn_stadium = new System.Windows.Forms.Button();
@@ -65,9 +68,6 @@ namespace Rugby_World_Cup_2019_app
             this.btn_more = new System.Windows.Forms.Button();
             this.btn_morePlayers = new System.Windows.Forms.Button();
             this.btn_return = new System.Windows.Forms.Button();
-            this.show_Referee1 = new Rugby_World_Cup_2019_app.Show_Referee();
-            this.show_stadium1 = new Rugby_World_Cup_2019_app.Show_stadium();
-            this.show_tournamentStats1 = new Rugby_World_Cup_2019_app.Show_tournamentStats();
             this.panel9.SuspendLayout();
             this.pnl_top.SuspendLayout();
             this.pnl_homeContainer.SuspendLayout();
@@ -266,7 +266,7 @@ namespace Rugby_World_Cup_2019_app
             this.flowLayoutPanelLeftSideTampilan.MaximumSize = new System.Drawing.Size(221, 743);
             this.flowLayoutPanelLeftSideTampilan.MinimumSize = new System.Drawing.Size(63, 743);
             this.flowLayoutPanelLeftSideTampilan.Name = "flowLayoutPanelLeftSideTampilan";
-            this.flowLayoutPanelLeftSideTampilan.Size = new System.Drawing.Size(63, 743);
+            this.flowLayoutPanelLeftSideTampilan.Size = new System.Drawing.Size(221, 743);
             this.flowLayoutPanelLeftSideTampilan.TabIndex = 0;
             // 
             // pnl_return
@@ -277,9 +277,40 @@ namespace Rugby_World_Cup_2019_app
             this.pnl_return.Size = new System.Drawing.Size(50, 45);
             this.pnl_return.TabIndex = 5;
             // 
+            // show_stadium1
+            // 
+            this.show_stadium1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(246)))));
+            this.show_stadium1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.show_stadium1.Location = new System.Drawing.Point(221, 0);
+            this.show_stadium1.Name = "show_stadium1";
+            this.show_stadium1.Size = new System.Drawing.Size(951, 743);
+            this.show_stadium1.TabIndex = 3;
+            // 
+            // show_Referee1
+            // 
+            this.show_Referee1.AutoScroll = true;
+            this.show_Referee1.BackColor = System.Drawing.Color.Transparent;
+            this.show_Referee1.BackgroundImage = global::Rugby_World_Cup_2019_app.Properties.Resources.image_5_;
+            this.show_Referee1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.show_Referee1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.show_Referee1.Location = new System.Drawing.Point(221, 0);
+            this.show_Referee1.Name = "show_Referee1";
+            this.show_Referee1.Size = new System.Drawing.Size(951, 743);
+            this.show_Referee1.TabIndex = 4;
+            // 
+            // show_tournamentStats1
+            // 
+            this.show_tournamentStats1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("show_tournamentStats1.BackgroundImage")));
+            this.show_tournamentStats1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.show_tournamentStats1.Location = new System.Drawing.Point(221, 0);
+            this.show_tournamentStats1.Name = "show_tournamentStats1";
+            this.show_tournamentStats1.Size = new System.Drawing.Size(951, 743);
+            this.show_tournamentStats1.TabIndex = 2;
+            // 
             // picBox_menu
             // 
             this.picBox_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(51)))), ((int)(((byte)(144)))));
+            this.picBox_menu.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.imageedit_3_32405762432;
             this.picBox_menu.Location = new System.Drawing.Point(15, 27);
             this.picBox_menu.Name = "picBox_menu";
             this.picBox_menu.Size = new System.Drawing.Size(24, 28);
@@ -291,6 +322,7 @@ namespace Rugby_World_Cup_2019_app
             // picBox_logo
             // 
             this.picBox_logo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(51)))), ((int)(((byte)(144)))));
+            this.picBox_logo.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.output_onlinejpgtools_2__removebg_preview3;
             this.picBox_logo.Location = new System.Drawing.Point(60, 6);
             this.picBox_logo.Name = "picBox_logo";
             this.picBox_logo.Size = new System.Drawing.Size(70, 72);
@@ -303,6 +335,7 @@ namespace Rugby_World_Cup_2019_app
             this.btn_stadium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(51)))), ((int)(((byte)(144)))));
             this.btn_stadium.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_stadium.ForeColor = System.Drawing.Color.White;
+            this.btn_stadium.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.icons8_stadium_241;
             this.btn_stadium.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_stadium.Location = new System.Drawing.Point(-47, -12);
             this.btn_stadium.Margin = new System.Windows.Forms.Padding(4);
@@ -320,6 +353,7 @@ namespace Rugby_World_Cup_2019_app
             this.btn_manager.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(51)))), ((int)(((byte)(144)))));
             this.btn_manager.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_manager.ForeColor = System.Drawing.Color.White;
+            this.btn_manager.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.manager_241;
             this.btn_manager.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_manager.Location = new System.Drawing.Point(-47, -11);
             this.btn_manager.Margin = new System.Windows.Forms.Padding(4);
@@ -336,6 +370,7 @@ namespace Rugby_World_Cup_2019_app
             this.btn_tournamentStats.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(51)))), ((int)(((byte)(144)))));
             this.btn_tournamentStats.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_tournamentStats.ForeColor = System.Drawing.Color.White;
+            this.btn_tournamentStats.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.statistics_241;
             this.btn_tournamentStats.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_tournamentStats.Location = new System.Drawing.Point(-47, -12);
             this.btn_tournamentStats.Margin = new System.Windows.Forms.Padding(4);
@@ -353,6 +388,7 @@ namespace Rugby_World_Cup_2019_app
             this.btn_referee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(51)))), ((int)(((byte)(144)))));
             this.btn_referee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_referee.ForeColor = System.Drawing.Color.White;
+            this.btn_referee.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.icons8_referee_jersey_241;
             this.btn_referee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_referee.Location = new System.Drawing.Point(-47, -10);
             this.btn_referee.Margin = new System.Windows.Forms.Padding(4);
@@ -370,6 +406,7 @@ namespace Rugby_World_Cup_2019_app
             this.btn_edit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(34)))), ((int)(((byte)(130)))));
             this.btn_edit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_edit.ForeColor = System.Drawing.Color.White;
+            this.btn_edit.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.house_24;
             this.btn_edit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_edit.Location = new System.Drawing.Point(-47, -10);
             this.btn_edit.Margin = new System.Windows.Forms.Padding(4);
@@ -387,6 +424,7 @@ namespace Rugby_World_Cup_2019_app
             this.btn_match.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(51)))), ((int)(((byte)(144)))));
             this.btn_match.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_match.ForeColor = System.Drawing.Color.White;
+            this.btn_match.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.trophy_2_241;
             this.btn_match.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_match.Location = new System.Drawing.Point(-47, -12);
             this.btn_match.Margin = new System.Windows.Forms.Padding(4);
@@ -403,6 +441,7 @@ namespace Rugby_World_Cup_2019_app
             this.btn_team.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(51)))), ((int)(((byte)(144)))));
             this.btn_team.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_team.ForeColor = System.Drawing.Color.White;
+            this.btn_team.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.group_241;
             this.btn_team.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_team.Location = new System.Drawing.Point(-47, -6);
             this.btn_team.Margin = new System.Windows.Forms.Padding(4);
@@ -419,6 +458,7 @@ namespace Rugby_World_Cup_2019_app
             this.btn_player.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(51)))), ((int)(((byte)(144)))));
             this.btn_player.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_player.ForeColor = System.Drawing.Color.White;
+            this.btn_player.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.user_241;
             this.btn_player.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_player.Location = new System.Drawing.Point(-47, -11);
             this.btn_player.Margin = new System.Windows.Forms.Padding(4);
@@ -435,6 +475,7 @@ namespace Rugby_World_Cup_2019_app
             this.btn_moreTeams.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(51)))), ((int)(((byte)(144)))));
             this.btn_moreTeams.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_moreTeams.ForeColor = System.Drawing.Color.White;
+            this.btn_moreTeams.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.icons8_american_football_helmet_241;
             this.btn_moreTeams.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_moreTeams.Location = new System.Drawing.Point(-46, -9);
             this.btn_moreTeams.Margin = new System.Windows.Forms.Padding(4);
@@ -451,6 +492,7 @@ namespace Rugby_World_Cup_2019_app
             this.btn_more.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(34)))), ((int)(((byte)(130)))));
             this.btn_more.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_more.ForeColor = System.Drawing.Color.White;
+            this.btn_more.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.icons8_more_241;
             this.btn_more.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_more.Location = new System.Drawing.Point(-49, -10);
             this.btn_more.Margin = new System.Windows.Forms.Padding(4);
@@ -468,6 +510,7 @@ namespace Rugby_World_Cup_2019_app
             this.btn_morePlayers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(51)))), ((int)(((byte)(144)))));
             this.btn_morePlayers.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_morePlayers.ForeColor = System.Drawing.Color.White;
+            this.btn_morePlayers.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.icons8_rugby_sevens_241;
             this.btn_morePlayers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_morePlayers.Location = new System.Drawing.Point(-46, -9);
             this.btn_morePlayers.Margin = new System.Windows.Forms.Padding(4);
@@ -483,39 +526,13 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.btn_return.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_return.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_return.Location = new System.Drawing.Point(0, -3);
+            this.btn_return.Image = global::Rugby_World_Cup_2019_app.Properties.Resources.imageedit_4_4530618903_1__1_2;
+            this.btn_return.Location = new System.Drawing.Point(-3, -3);
             this.btn_return.Name = "btn_return";
-            this.btn_return.Size = new System.Drawing.Size(50, 52);
+            this.btn_return.Size = new System.Drawing.Size(61, 52);
             this.btn_return.TabIndex = 6;
             this.btn_return.UseVisualStyleBackColor = true;
             this.btn_return.Click += new System.EventHandler(this.btn_return_Click);
-            // 
-            // show_Referee1
-            // 
-            this.show_Referee1.AutoScroll = true;
-            this.show_Referee1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.show_Referee1.Location = new System.Drawing.Point(63, 0);
-            this.show_Referee1.Name = "show_Referee1";
-            this.show_Referee1.Size = new System.Drawing.Size(1109, 743);
-            this.show_Referee1.TabIndex = 4;
-            // 
-            // show_stadium1
-            // 
-            this.show_stadium1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(251)))), ((int)(((byte)(246)))));
-            this.show_stadium1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.show_stadium1.Location = new System.Drawing.Point(63, 0);
-            this.show_stadium1.Name = "show_stadium1";
-            this.show_stadium1.Size = new System.Drawing.Size(1109, 743);
-            this.show_stadium1.TabIndex = 3;
-            // 
-            // show_tournamentStats1
-            // 
-            this.show_tournamentStats1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("show_tournamentStats1.BackgroundImage")));
-            this.show_tournamentStats1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.show_tournamentStats1.Location = new System.Drawing.Point(63, 0);
-            this.show_tournamentStats1.Name = "show_tournamentStats1";
-            this.show_tournamentStats1.Size = new System.Drawing.Size(1109, 743);
-            this.show_tournamentStats1.TabIndex = 2;
             // 
             // Form_Tampilan
             // 

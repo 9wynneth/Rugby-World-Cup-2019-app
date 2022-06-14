@@ -133,6 +133,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="RoundButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -205,6 +210,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Show_details.resx">
       <DependentUpon>Show_details.cs</DependentUpon>
@@ -409,9 +415,6 @@
     <None Include="Resources\Referee_A001.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\England.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Argentina.png" />
   </ItemGroup>
   <ItemGroup>
@@ -473,6 +476,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Wales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\England.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\South Africa .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy-2-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view-details-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistics-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-referee-jersey-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manager-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stadium-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-more-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-rugby-sevens-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-american-football-helmet-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageedit_4_4530618903%281%29%281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinejpgtools.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image%285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinejpgtools_2_-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinejpgtools_2_-removebg-preview3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageedit_3_32405762432.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

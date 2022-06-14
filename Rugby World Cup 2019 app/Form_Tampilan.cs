@@ -118,7 +118,9 @@ namespace Rugby_World_Cup_2019_app
         private void btn_tournamentStats_Click(object sender, EventArgs e)
         {
             hide();
+            NormalColor();
             show_tournamentStats1.Visible = true;
+            btn_stadium.BackColor = Color.FromArgb(131, 65, 164);
 
         }
 
