@@ -127,6 +127,8 @@ namespace Rugby_World_Cup_2019_app
         private void btn_return_Click(object sender, EventArgs e)
         {
             this.Close();
+            Form_Intro formIntro = new Form_Intro();
+            formIntro.Show();
         }
         private void NormalColor()
         {
