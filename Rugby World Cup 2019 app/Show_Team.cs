@@ -107,6 +107,7 @@ namespace Rugby_World_Cup_2019_app
                 teamAssManager.BackColor = Color.Transparent;
                 teamAssManager.ForeColor = Color.White;
 
+                // BELUM BISA TAMPIL
                 PictureBox assPic = new PictureBox();
                 assPic.Name = "picBox_ass" + i;
                 assPic.Size = new Size(55, 55);
