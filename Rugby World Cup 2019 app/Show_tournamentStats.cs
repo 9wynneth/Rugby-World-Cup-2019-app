@@ -28,6 +28,7 @@ namespace Rugby_World_Cup_2019_app
         DataTable dtTotalRedCards = new DataTable();
         DataTable dtTotalYellowCards = new DataTable();
         DataTable dtMostTries = new DataTable();
+        DataTable dtMostPenalties = new DataTable();
 
         private void Show_tournamentStats_Load(object sender, EventArgs e)
         {
@@ -55,15 +56,38 @@ namespace Rugby_World_Cup_2019_app
             lbl_mostTriesNationality.Text= dtMostTries.Rows[0][1].ToString();
             lbl_mostTries.Text = dtMostTries.Rows[0][2].ToString();
 
+            sqlQuery = $"SELECT p.player_name, n.country_name, Count(md.type_matchDetail) FROM player p, nationality n, matchDetail md  WHERE p.player_id = md.player_id and p.nationality_id = n.nationality_id and md.type_matchDetail = 'PENALTY' group by 1 order by 3 desc; ";
+            sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
+            sqlAdapter = new MySqlDataAdapter(sqlCommand);
+            sqlAdapter.Fill(dtMostPenalties);
+
+            lbl_penaltyScore.Text = dtMostPenalties.Rows[0][2].ToString();
+            lbl_penaltyNationality.Text = dtMostPenalties.Rows[0][1].ToString();
+            linkLabel_PenaltyName.Text = dtMostPenalties.Rows[0][0].ToString();
+
+
+
         }
         public static bool detailRedCards=true;
-    
-
+        public static bool detailYellowCards = true;
+        public static bool detailPenalty = true;
         private void btn_details_redCards_Click(object sender, EventArgs e)
         {
             detailRedCards = false;
             showDetails.ShowDialog();
             
+        }
+
+        private void btn_more_yellowCards_Click(object sender, EventArgs e)
+        {
+            detailYellowCards = false;
+            showDetails.ShowDialog();
+        }
+
+        private void btn_ShowMorePenalty_Click(object sender, EventArgs e)
+        {
+            detailPenalty = false;
+            showDetails.ShowDialog();
         }
     }
 }

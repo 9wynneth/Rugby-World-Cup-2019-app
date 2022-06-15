@@ -39,6 +39,7 @@ namespace Rugby_World_Cup_2019_app
             this.label3 = new System.Windows.Forms.Label();
             this.pnl_mostPoints = new System.Windows.Forms.Panel();
             this.pnl_redCards = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_more_redCards = new System.Windows.Forms.Button();
             this.lbl_redCard = new System.Windows.Forms.Label();
             this.lbl_totalRedCards = new System.Windows.Forms.Label();
@@ -50,11 +51,16 @@ namespace Rugby_World_Cup_2019_app
             this.btn_more_yellowCards = new System.Windows.Forms.Button();
             this.lbl_yellow = new System.Windows.Forms.Label();
             this.lbl_totalYellowCards = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lbl_penaltyScore = new System.Windows.Forms.Label();
+            this.linkLabel_PenaltyName = new System.Windows.Forms.LinkLabel();
+            this.lbl_penaltyNationality = new System.Windows.Forms.Label();
+            this.btn_ShowMorePenalty = new System.Windows.Forms.Button();
             this.pnl_mostTries.SuspendLayout();
             this.pnl_redCards.SuspendLayout();
-            this.pnl_yellowCards.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnl_mostPenalties.SuspendLayout();
+            this.pnl_yellowCards.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -154,6 +160,14 @@ namespace Rugby_World_Cup_2019_app
             this.pnl_redCards.Size = new System.Drawing.Size(123, 239);
             this.pnl_redCards.TabIndex = 4;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(55, 106);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(65, 88);
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
             // btn_more_redCards
             // 
             this.btn_more_redCards.Location = new System.Drawing.Point(3, 200);
@@ -200,6 +214,11 @@ namespace Rugby_World_Cup_2019_app
             // 
             // pnl_mostPenalties
             // 
+            this.pnl_mostPenalties.Controls.Add(this.btn_ShowMorePenalty);
+            this.pnl_mostPenalties.Controls.Add(this.lbl_penaltyNationality);
+            this.pnl_mostPenalties.Controls.Add(this.linkLabel_PenaltyName);
+            this.pnl_mostPenalties.Controls.Add(this.lbl_penaltyScore);
+            this.pnl_mostPenalties.Controls.Add(this.label4);
             this.pnl_mostPenalties.Location = new System.Drawing.Point(546, 393);
             this.pnl_mostPenalties.Name = "pnl_mostPenalties";
             this.pnl_mostPenalties.Size = new System.Drawing.Size(251, 243);
@@ -232,6 +251,7 @@ namespace Rugby_World_Cup_2019_app
             this.btn_more_yellowCards.TabIndex = 12;
             this.btn_more_yellowCards.Text = "Show more";
             this.btn_more_yellowCards.UseVisualStyleBackColor = true;
+            this.btn_more_yellowCards.Click += new System.EventHandler(this.btn_more_yellowCards_Click);
             // 
             // lbl_yellow
             // 
@@ -253,13 +273,53 @@ namespace Rugby_World_Cup_2019_app
             this.lbl_totalYellowCards.Size = new System.Drawing.Size(0, 64);
             this.lbl_totalYellowCards.TabIndex = 11;
             // 
-            // pictureBox1
+            // label4
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(55, 106);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(65, 88);
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(18, 12);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(146, 20);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "MOST PENALTIES";
+            // 
+            // lbl_penaltyScore
+            // 
+            this.lbl_penaltyScore.AutoSize = true;
+            this.lbl_penaltyScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_penaltyScore.Location = new System.Drawing.Point(16, 55);
+            this.lbl_penaltyScore.Name = "lbl_penaltyScore";
+            this.lbl_penaltyScore.Size = new System.Drawing.Size(93, 32);
+            this.lbl_penaltyScore.TabIndex = 4;
+            this.lbl_penaltyScore.Text = "label4";
+            // 
+            // linkLabel_PenaltyName
+            // 
+            this.linkLabel_PenaltyName.AutoSize = true;
+            this.linkLabel_PenaltyName.Location = new System.Drawing.Point(18, 117);
+            this.linkLabel_PenaltyName.Name = "linkLabel_PenaltyName";
+            this.linkLabel_PenaltyName.Size = new System.Drawing.Size(80, 20);
+            this.linkLabel_PenaltyName.TabIndex = 4;
+            this.linkLabel_PenaltyName.TabStop = true;
+            this.linkLabel_PenaltyName.Text = "linkLabel1";
+            // 
+            // lbl_penaltyNationality
+            // 
+            this.lbl_penaltyNationality.AutoSize = true;
+            this.lbl_penaltyNationality.Location = new System.Drawing.Point(18, 181);
+            this.lbl_penaltyNationality.Name = "lbl_penaltyNationality";
+            this.lbl_penaltyNationality.Size = new System.Drawing.Size(51, 20);
+            this.lbl_penaltyNationality.TabIndex = 4;
+            this.lbl_penaltyNationality.Text = "label5";
+            // 
+            // btn_ShowMorePenalty
+            // 
+            this.btn_ShowMorePenalty.Location = new System.Drawing.Point(131, 202);
+            this.btn_ShowMorePenalty.Name = "btn_ShowMorePenalty";
+            this.btn_ShowMorePenalty.Size = new System.Drawing.Size(117, 38);
+            this.btn_ShowMorePenalty.TabIndex = 11;
+            this.btn_ShowMorePenalty.Text = "Show more";
+            this.btn_ShowMorePenalty.UseVisualStyleBackColor = true;
+            this.btn_ShowMorePenalty.Click += new System.EventHandler(this.btn_ShowMorePenalty_Click);
             // 
             // Show_tournamentStats
             // 
@@ -284,9 +344,11 @@ namespace Rugby_World_Cup_2019_app
             this.pnl_mostTries.PerformLayout();
             this.pnl_redCards.ResumeLayout(false);
             this.pnl_redCards.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnl_mostPenalties.ResumeLayout(false);
+            this.pnl_mostPenalties.PerformLayout();
             this.pnl_yellowCards.ResumeLayout(false);
             this.pnl_yellowCards.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -316,5 +378,10 @@ namespace Rugby_World_Cup_2019_app
         private System.Windows.Forms.Label lbl_mostTries;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lbl_penaltyNationality;
+        private System.Windows.Forms.LinkLabel linkLabel_PenaltyName;
+        private System.Windows.Forms.Label lbl_penaltyScore;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btn_ShowMorePenalty;
     }
 }

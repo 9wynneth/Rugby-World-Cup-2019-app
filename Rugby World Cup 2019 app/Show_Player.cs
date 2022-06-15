@@ -29,7 +29,7 @@ namespace Rugby_World_Cup_2019_app
         private void Show_Player_Load(object sender, EventArgs e)
         {
             sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
-            //sqlQuery = $"SELECT r.referee_id as 'REFEREE ID', r.referee_name as 'REFEREE NAME', n.country_name as NATIONALITY, n.country_code as ABV FROM referee r, nationality n WHERE n.nationality_id = r.nationality_id;";
+            sqlQuery = $"SELECT r.referee_id as 'REFEREE ID', r.referee_name as 'REFEREE NAME', n.country_name as NATIONALITY, n.country_code as ABV FROM referee r, nationality n WHERE n.nationality_id = r.nationality_id;";
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);
             sqlAdapter.Fill(dtPlayer);

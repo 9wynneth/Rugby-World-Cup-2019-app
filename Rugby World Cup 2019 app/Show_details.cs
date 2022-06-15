@@ -26,11 +26,11 @@ namespace Rugby_World_Cup_2019_app
         //Show_tournamentStats showStats = new Show_tournamentStats();
         //Show_stadium showStadium = new Show_stadium();
 
-        DataTable dtRedCardDetail = new DataTable();
+     
         DataTable dtStadium = new DataTable();
 
 
-        void StyleDatagridview()
+        public void StyleDatagridview()
         {
             dGV_ShowDetails.BorderStyle = BorderStyle.None;
             dGV_ShowDetails.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(238, 239, 249);
@@ -44,9 +44,9 @@ namespace Rugby_World_Cup_2019_app
             dGV_ShowDetails.ColumnHeadersDefaultCellStyle.Font = new Font("MS Reference Sans Serif", 10);
             dGV_ShowDetails.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(37, 37, 38);
             dGV_ShowDetails.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
-        }
+            dGV_ShowDetails.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
-        public  DataGridView dGV = new DataGridView();
+        }
 
         private void showDetailMatch()
         {
@@ -55,20 +55,13 @@ namespace Rugby_World_Cup_2019_app
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
             sqlAdapter = new MySqlDataAdapter(sqlCommand);
             sqlAdapter.Fill(dtStadium);
-
-            dGV_ShowDetails.DataSource = dtStadium;
-            dGV_ShowDetails.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-           
+            StyleDatagridview();
+            dGV_ShowDetails.DataSource = dtStadium;           
         }
 
         private void Show_details_Load(object sender, EventArgs e)
         {
             sqlConnect = new MySqlConnection("server=localhost;uid=root;pwd=;database=dBd_07_rwc2019");
-            StyleDatagridview();
-            sqlQuery = "SELECT p.player_name as Player, n.country_name as Nationality ,Count(md.type_matchDetail) as 'Red Card' FROM player p, matchDetail md, nationality n WHERE p.player_id = md.player_id and n.nationality_id = p.nationality_id and md.type_matchDetail = 'RED CARD' group by 1 order by 2 desc; ";
-            sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
-            sqlAdapter = new MySqlDataAdapter(sqlCommand);
-            sqlAdapter.Fill(dtRedCardDetail);
 
             sqlQuery = $"SELECT stadium_id, stadium_name FROM stadium;  ";
             sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
@@ -77,9 +70,38 @@ namespace Rugby_World_Cup_2019_app
 
             if (Show_tournamentStats.detailRedCards == false)
             {
-                lbl_topicDetails.Text = $"Top Red Cards ({dtRedCardDetail.Rows.Count-1})";
+                DataTable dtRedCardDetail = new DataTable();
+                sqlQuery = "SELECT p.player_name as Player, n.country_name as Nationality ,Count(md.type_matchDetail) as 'Red Card' FROM player p, matchDetail md, nationality n WHERE p.player_id = md.player_id and n.nationality_id = p.nationality_id and md.type_matchDetail = 'RED CARD' group by 1 order by 2 desc; ";
+                sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
+                sqlAdapter = new MySqlDataAdapter(sqlCommand);
+                sqlAdapter.Fill(dtRedCardDetail);
+                lbl_topicDetails.Text = $"Top Red Cards ({dtRedCardDetail.Rows.Count} players)";
+                StyleDatagridview();
                 dGV_ShowDetails.DataSource = dtRedCardDetail;
                 Show_tournamentStats.detailRedCards = true;
+            }
+            else if (Show_tournamentStats.detailYellowCards==false)
+            {
+                DataTable dtYellowCardDetail = new DataTable();
+                sqlQuery = "SELECT p.player_name as Player, n.country_name as Nationality ,Count(md.type_matchDetail) as 'Yellow Card' FROM player p, matchDetail md, nationality n WHERE p.player_id = md.player_id and n.nationality_id = p.nationality_id and md.type_matchDetail = 'YELLOW CARD' group by 1 order by 2 desc; ";
+                sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
+                sqlAdapter = new MySqlDataAdapter(sqlCommand);
+                sqlAdapter.Fill(dtYellowCardDetail);
+                lbl_topicDetails.Text = $"Top Yellow Cards ({dtYellowCardDetail.Rows.Count} players)";
+                StyleDatagridview();
+                dGV_ShowDetails.DataSource = dtYellowCardDetail;
+                Show_tournamentStats.detailYellowCards = true;
+            }
+            else if (Show_tournamentStats.detailPenalty==false)
+            {
+                DataTable dtPenaltyDetail = new DataTable();
+                sqlQuery = $"SELECT md.match_id as 'MATCH NO', m.match_date as `DATE`, md.match_duration as `MINUTE`, p.player_name as 'Player Name', Concat((SELECT t.team_name FROM team t WHERE t.team_id = m.teamHome_id), ' VS ', (SELECT t.team_name FROM team t WHERE t.team_id = m.teamAway_id)) as `MATCH` FROM player p, matchDetail md, `match` m WHERE p.player_id = md.player_id and m.match_id = md.match_id and md.type_matchDetail = 'PENALTY' group by md.matchDetail_id order by p.player_name,1,2 ";
+                sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
+                sqlAdapter = new MySqlDataAdapter(sqlCommand);
+                sqlAdapter.Fill(dtPenaltyDetail);
+                lbl_topicDetails.Text = $"Penalty details ({dtPenaltyDetail.Rows.Count})";
+                StyleDatagridview();
+                dGV_ShowDetails.DataSource = dtPenaltyDetail;
             }
             else if (Show_stadium.sapporo == false)
             {

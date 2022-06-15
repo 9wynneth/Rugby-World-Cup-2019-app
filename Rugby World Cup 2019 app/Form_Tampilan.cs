@@ -107,6 +107,7 @@ namespace Rugby_World_Cup_2019_app
         private void Form_Tampilan_Load(object sender, EventArgs e)
         {
             hide();
+
         }
 
         private void hide()
@@ -174,6 +175,11 @@ namespace Rugby_World_Cup_2019_app
             NormalColor();
             show_Player1.Visible = true;
             btn_player.BackColor = Color.FromArgb(131, 65, 164);
+        }
+
+        private void btn_match_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
