@@ -49,5 +49,10 @@ namespace Rugby_World_Cup_2019_app
 
             dGV_edit_match.Rows.RemoveAt(dGV_edit_match.SelectedRows[0].Index);
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

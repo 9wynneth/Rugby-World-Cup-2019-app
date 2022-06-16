@@ -29,10 +29,8 @@ namespace Rugby_World_Cup_2019_app
         /// </summary>
         private void InitializeComponent()
         {
-            this.round_btn_deleteReferee = new Rugby_World_Cup_2019_app.RoundButton();
             this.dGV_edit_referee = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.round_btn_updateReferee = new Rugby_World_Cup_2019_app.RoundButton();
             this.picBox_edit = new System.Windows.Forms.PictureBox();
             this.cBox_nationality = new System.Windows.Forms.ComboBox();
             this.tBox_refereeName = new System.Windows.Forms.TextBox();
@@ -41,22 +39,11 @@ namespace Rugby_World_Cup_2019_app
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.round_btn_insertManager = new Rugby_World_Cup_2019_app.RoundButton();
+            this.round_btn_deleteReferee = new Rugby_World_Cup_2019_app.RoundButton();
+            this.round_btn_updateReferee = new Rugby_World_Cup_2019_app.RoundButton();
             ((System.ComponentModel.ISupportInitialize)(this.dGV_edit_referee)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_edit)).BeginInit();
             this.SuspendLayout();
-            // 
-            // round_btn_deleteReferee
-            // 
-            this.round_btn_deleteReferee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(150)))), ((int)(((byte)(188)))));
-            this.round_btn_deleteReferee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.round_btn_deleteReferee.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.round_btn_deleteReferee.Location = new System.Drawing.Point(820, 598);
-            this.round_btn_deleteReferee.Name = "round_btn_deleteReferee";
-            this.round_btn_deleteReferee.Size = new System.Drawing.Size(75, 75);
-            this.round_btn_deleteReferee.TabIndex = 29;
-            this.round_btn_deleteReferee.Text = "DEL";
-            this.round_btn_deleteReferee.UseVisualStyleBackColor = false;
-            this.round_btn_deleteReferee.Click += new System.EventHandler(this.round_btn_deleteReferee_Click);
             // 
             // dGV_edit_referee
             // 
@@ -67,7 +54,6 @@ namespace Rugby_World_Cup_2019_app
             this.dGV_edit_referee.RowTemplate.Height = 28;
             this.dGV_edit_referee.Size = new System.Drawing.Size(1007, 338);
             this.dGV_edit_referee.TabIndex = 27;
-            //this.dGV_edit_referee.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGV_edit_referee_CellContentClick);
             // 
             // label1
             // 
@@ -78,19 +64,6 @@ namespace Rugby_World_Cup_2019_app
             this.label1.Size = new System.Drawing.Size(172, 37);
             this.label1.TabIndex = 26;
             this.label1.Text = "REFEREE";
-            // 
-            // round_btn_updateReferee
-            // 
-            this.round_btn_updateReferee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(150)))), ((int)(((byte)(188)))));
-            this.round_btn_updateReferee.BackgroundImage = global::Rugby_World_Cup_2019_app.Properties.Resources.available_updates_64;
-            this.round_btn_updateReferee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.round_btn_updateReferee.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.round_btn_updateReferee.Location = new System.Drawing.Point(529, 603);
-            this.round_btn_updateReferee.Name = "round_btn_updateReferee";
-            this.round_btn_updateReferee.Size = new System.Drawing.Size(70, 70);
-            this.round_btn_updateReferee.TabIndex = 28;
-            this.round_btn_updateReferee.UseVisualStyleBackColor = false;
-            this.round_btn_updateReferee.Click += new System.EventHandler(this.round_btn_updateReferee_Click);
             // 
             // picBox_edit
             // 
@@ -104,21 +77,21 @@ namespace Rugby_World_Cup_2019_app
             // cBox_nationality
             // 
             this.cBox_nationality.FormattingEnabled = true;
-            this.cBox_nationality.Location = new System.Drawing.Point(529, 533);
+            this.cBox_nationality.Location = new System.Drawing.Point(524, 537);
             this.cBox_nationality.Name = "cBox_nationality";
             this.cBox_nationality.Size = new System.Drawing.Size(155, 28);
             this.cBox_nationality.TabIndex = 35;
             // 
             // tBox_refereeName
             // 
-            this.tBox_refereeName.Location = new System.Drawing.Point(529, 481);
+            this.tBox_refereeName.Location = new System.Drawing.Point(524, 485);
             this.tBox_refereeName.Name = "tBox_refereeName";
             this.tBox_refereeName.Size = new System.Drawing.Size(366, 26);
             this.tBox_refereeName.TabIndex = 34;
             // 
             // tBox_refereeID
             // 
-            this.tBox_refereeID.Location = new System.Drawing.Point(529, 431);
+            this.tBox_refereeID.Location = new System.Drawing.Point(524, 435);
             this.tBox_refereeID.Name = "tBox_refereeID";
             this.tBox_refereeID.Size = new System.Drawing.Size(155, 26);
             this.tBox_refereeID.TabIndex = 33;
@@ -126,7 +99,7 @@ namespace Rugby_World_Cup_2019_app
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(356, 533);
+            this.label3.Location = new System.Drawing.Point(351, 537);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(117, 20);
             this.label3.TabIndex = 32;
@@ -135,7 +108,7 @@ namespace Rugby_World_Cup_2019_app
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(332, 484);
+            this.label2.Location = new System.Drawing.Point(327, 488);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(141, 20);
             this.label2.TabIndex = 31;
@@ -144,7 +117,7 @@ namespace Rugby_World_Cup_2019_app
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(361, 438);
+            this.label4.Location = new System.Drawing.Point(356, 442);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(112, 20);
             this.label4.TabIndex = 30;
@@ -156,12 +129,38 @@ namespace Rugby_World_Cup_2019_app
             this.round_btn_insertManager.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.round_btn_insertManager.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.round_btn_insertManager.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.round_btn_insertManager.Location = new System.Drawing.Point(226, 603);
+            this.round_btn_insertManager.Location = new System.Drawing.Point(53, 408);
             this.round_btn_insertManager.Name = "round_btn_insertManager";
-            this.round_btn_insertManager.Size = new System.Drawing.Size(75, 75);
+            this.round_btn_insertManager.Size = new System.Drawing.Size(63, 61);
             this.round_btn_insertManager.TabIndex = 38;
             this.round_btn_insertManager.Text = "+";
             this.round_btn_insertManager.UseVisualStyleBackColor = false;
+            // 
+            // round_btn_deleteReferee
+            // 
+            this.round_btn_deleteReferee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(150)))), ((int)(((byte)(188)))));
+            this.round_btn_deleteReferee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.round_btn_deleteReferee.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.round_btn_deleteReferee.Location = new System.Drawing.Point(985, 408);
+            this.round_btn_deleteReferee.Name = "round_btn_deleteReferee";
+            this.round_btn_deleteReferee.Size = new System.Drawing.Size(75, 75);
+            this.round_btn_deleteReferee.TabIndex = 29;
+            this.round_btn_deleteReferee.Text = "DEL";
+            this.round_btn_deleteReferee.UseVisualStyleBackColor = false;
+            this.round_btn_deleteReferee.Click += new System.EventHandler(this.round_btn_deleteReferee_Click);
+            // 
+            // round_btn_updateReferee
+            // 
+            this.round_btn_updateReferee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(150)))), ((int)(((byte)(188)))));
+            this.round_btn_updateReferee.BackgroundImage = global::Rugby_World_Cup_2019_app.Properties.Resources.available_updates_64;
+            this.round_btn_updateReferee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.round_btn_updateReferee.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.round_btn_updateReferee.Location = new System.Drawing.Point(148, 408);
+            this.round_btn_updateReferee.Name = "round_btn_updateReferee";
+            this.round_btn_updateReferee.Size = new System.Drawing.Size(70, 70);
+            this.round_btn_updateReferee.TabIndex = 28;
+            this.round_btn_updateReferee.UseVisualStyleBackColor = false;
+            this.round_btn_updateReferee.Click += new System.EventHandler(this.round_btn_updateReferee_Click);
             // 
             // Edit_referee
             // 
