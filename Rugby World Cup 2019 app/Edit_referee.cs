@@ -64,29 +64,27 @@ namespace Rugby_World_Cup_2019_app
         private void dGV_edit_referee_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             selectedData = dGV_edit_referee.CurrentCell.RowIndex;
-            //getData();
+            getData();
         }
 
 
         private void getData()
         {
-            /*
             sqlQuery = "SELECT r.referee_id, r.referee_name, n.country_name as nationality FROM REFEREE r, nationality n WHERE n.nationality_id=r.nationality_id";
-            formAwal.sqlCommand = new MySqlCommand(sqlQuery, formAwal.sqlConnect);
-            formAwal.sqlAdapter = new MySqlDataAdapter(formAwal.sqlCommand);
-            formAwal.sqlAdapter.Fill(dtReferee);
+            sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
+            sqlAdapter = new MySqlDataAdapter(sqlCommand);
+            sqlAdapter.Fill(dtReferee);
 
             tBox_refereeID.Text = dtReferee.Rows[selectedData][0].ToString();
             tBox_refereeName.Text = dtReferee.Rows[selectedData][1].ToString();
             cBox_nationality.DisplayMember = "nationality";
 
             sqlQuery = "SELECT nationality_id, country_name as nationality FROM NATIONALITY";
-            formAwal.sqlCommand = new MySqlCommand(sqlQuery, formAwal.sqlConnect);
-            formAwal.sqlAdapter = new MySqlDataAdapter(formAwal.sqlCommand);
-            formAwal.sqlAdapter.Fill(dtNationality);
+            sqlCommand = new MySqlCommand(sqlQuery, sqlConnect);
+            sqlAdapter = new MySqlDataAdapter(sqlCommand);
+            sqlAdapter.Fill(dtNationality);
 
             cBox_nationality.DataSource = dtNationality;
-            */
         }
 
         /*
