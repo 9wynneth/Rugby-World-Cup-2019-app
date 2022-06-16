@@ -139,7 +139,6 @@ namespace Rugby_World_Cup_2019_app
             btn_referee.BackColor = Color.FromArgb(123, 51, 144);
             btn_team.BackColor = Color.FromArgb(123, 51, 144);
             btn_player.BackColor = Color.FromArgb(123, 51, 144);
-            btn_manager.BackColor = Color.FromArgb(123, 51, 144);
             btn_tournamentStats.BackColor = Color.FromArgb(123, 51, 144);
             btn_match.BackColor = Color.FromArgb(123, 51, 144);
             
