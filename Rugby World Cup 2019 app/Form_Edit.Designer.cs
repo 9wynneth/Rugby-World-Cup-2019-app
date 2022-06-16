@@ -36,7 +36,7 @@ namespace Rugby_World_Cup_2019_app
             this.edit_manager1 = new Rugby_World_Cup_2019_app.Edit_manager();
             this.edit_matchDetail1 = new Rugby_World_Cup_2019_app.Edit_matchDetail();
             this.edit_match1 = new Rugby_World_Cup_2019_app.Edit_match();
-            this.edit_player1 = new Rugby_World_Cup_2019_app.Edit_player();
+            this.edit_player1 = new Rugby_World_Cup_2019_app.cBox_team();
             this.edit_team1 = new Rugby_World_Cup_2019_app.Edit_team();
             this.changingAccess2 = new Rugby_World_Cup_2019_app.ChangingAccess();
             this.picBox_menu = new System.Windows.Forms.PictureBox();
@@ -586,7 +586,7 @@ namespace Rugby_World_Cup_2019_app
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button btn_return;
         private Edit_team edit_team1;
-        private Edit_player edit_player1;
+        private cBox_team edit_player1;
         private Edit_matchDetail edit_matchDetail1;
         private Edit_match edit_match1;
         private Edit_referee edit_referee1;
