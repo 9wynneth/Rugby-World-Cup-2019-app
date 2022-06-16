@@ -153,6 +153,18 @@
     <Compile Include="Show_Matches.Designer.cs">
       <DependentUpon>Show_Matches.cs</DependentUpon>
     </Compile>
+    <Compile Include="Show_MorePlayerStats.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Show_MorePlayerStats.Designer.cs">
+      <DependentUpon>Show_MorePlayerStats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Show_MoreTeamStats.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Show_MoreTeamStats.Designer.cs">
+      <DependentUpon>Show_MoreTeamStats.cs</DependentUpon>
+    </Compile>
     <Compile Include="Show_Player.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -235,6 +247,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Show_Matches.resx">
       <DependentUpon>Show_Matches.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_MorePlayerStats.resx">
+      <DependentUpon>Show_MorePlayerStats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_MoreTeamStats.resx">
+      <DependentUpon>Show_MoreTeamStats.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Show_Player.resx">
       <DependentUpon>Show_Player.cs</DependentUpon>

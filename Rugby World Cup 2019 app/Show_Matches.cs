@@ -101,6 +101,7 @@ namespace Rugby_World_Cup_2019_app
 
             dataGridView_allMatches.DataSource = dtMatches;
             dataGridView_allMatches.Visible = true;
+            dataGridView_allMatches.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
     }
 }
