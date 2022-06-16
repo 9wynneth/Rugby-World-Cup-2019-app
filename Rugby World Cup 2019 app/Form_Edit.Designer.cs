@@ -30,6 +30,7 @@ namespace Rugby_World_Cup_2019_app
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Edit));
             this.pnl_edit = new System.Windows.Forms.Panel();
             this.edit_referee1 = new Rugby_World_Cup_2019_app.Edit_referee();
             this.edit_manager1 = new Rugby_World_Cup_2019_app.Edit_manager();
@@ -106,45 +107,47 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.edit_referee1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(200)))), ((int)(((byte)(229)))));
             this.edit_referee1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.edit_referee1.Location = new System.Drawing.Point(63, 0);
+            this.edit_referee1.Location = new System.Drawing.Point(221, 0);
             this.edit_referee1.Name = "edit_referee1";
-            this.edit_referee1.Size = new System.Drawing.Size(1109, 743);
+            this.edit_referee1.Size = new System.Drawing.Size(951, 743);
             this.edit_referee1.TabIndex = 10;
             // 
             // edit_manager1
             // 
             this.edit_manager1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(200)))), ((int)(((byte)(229)))));
+            this.edit_manager1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("edit_manager1.BackgroundImage")));
             this.edit_manager1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.edit_manager1.Location = new System.Drawing.Point(63, 0);
+            this.edit_manager1.Location = new System.Drawing.Point(221, 0);
             this.edit_manager1.Name = "edit_manager1";
-            this.edit_manager1.Size = new System.Drawing.Size(1109, 743);
+            this.edit_manager1.Size = new System.Drawing.Size(951, 743);
             this.edit_manager1.TabIndex = 9;
             // 
             // edit_matchDetail1
             // 
             this.edit_matchDetail1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(200)))), ((int)(((byte)(229)))));
             this.edit_matchDetail1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.edit_matchDetail1.Location = new System.Drawing.Point(63, 0);
+            this.edit_matchDetail1.Location = new System.Drawing.Point(221, 0);
             this.edit_matchDetail1.Name = "edit_matchDetail1";
-            this.edit_matchDetail1.Size = new System.Drawing.Size(1109, 743);
+            this.edit_matchDetail1.Size = new System.Drawing.Size(951, 743);
             this.edit_matchDetail1.TabIndex = 8;
             // 
             // edit_match1
             // 
             this.edit_match1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(200)))), ((int)(((byte)(229)))));
+            this.edit_match1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("edit_match1.BackgroundImage")));
             this.edit_match1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.edit_match1.Location = new System.Drawing.Point(63, 0);
+            this.edit_match1.Location = new System.Drawing.Point(221, 0);
             this.edit_match1.Name = "edit_match1";
-            this.edit_match1.Size = new System.Drawing.Size(1109, 743);
+            this.edit_match1.Size = new System.Drawing.Size(951, 743);
             this.edit_match1.TabIndex = 7;
             // 
             // edit_player1
             // 
             this.edit_player1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(200)))), ((int)(((byte)(229)))));
             this.edit_player1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.edit_player1.Location = new System.Drawing.Point(63, 0);
+            this.edit_player1.Location = new System.Drawing.Point(221, 0);
             this.edit_player1.Name = "edit_player1";
-            this.edit_player1.Size = new System.Drawing.Size(1109, 743);
+            this.edit_player1.Size = new System.Drawing.Size(951, 743);
             this.edit_player1.TabIndex = 6;
             this.edit_player1.Load += new System.EventHandler(this.edit_player1_Load);
             // 
@@ -152,17 +155,17 @@ namespace Rugby_World_Cup_2019_app
             // 
             this.edit_team1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(200)))), ((int)(((byte)(229)))));
             this.edit_team1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.edit_team1.Location = new System.Drawing.Point(63, 0);
+            this.edit_team1.Location = new System.Drawing.Point(221, 0);
             this.edit_team1.Name = "edit_team1";
-            this.edit_team1.Size = new System.Drawing.Size(1109, 743);
+            this.edit_team1.Size = new System.Drawing.Size(951, 743);
             this.edit_team1.TabIndex = 5;
             // 
             // changingAccess2
             // 
             this.changingAccess2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.changingAccess2.Location = new System.Drawing.Point(63, 0);
+            this.changingAccess2.Location = new System.Drawing.Point(221, 0);
             this.changingAccess2.Name = "changingAccess2";
-            this.changingAccess2.Size = new System.Drawing.Size(1109, 743);
+            this.changingAccess2.Size = new System.Drawing.Size(951, 743);
             this.changingAccess2.TabIndex = 4;
             this.changingAccess2.Load += new System.EventHandler(this.changingAccess2_Load);
             // 
@@ -190,7 +193,7 @@ namespace Rugby_World_Cup_2019_app
             this.flowLayoutPanelLeftSide.MaximumSize = new System.Drawing.Size(221, 743);
             this.flowLayoutPanelLeftSide.MinimumSize = new System.Drawing.Size(63, 743);
             this.flowLayoutPanelLeftSide.Name = "flowLayoutPanelLeftSide";
-            this.flowLayoutPanelLeftSide.Size = new System.Drawing.Size(63, 743);
+            this.flowLayoutPanelLeftSide.Size = new System.Drawing.Size(221, 743);
             this.flowLayoutPanelLeftSide.TabIndex = 0;
             // 
             // pnl_top
