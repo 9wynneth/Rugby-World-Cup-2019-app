@@ -117,6 +117,7 @@ namespace Rugby_World_Cup_2019_app
             show_Referee1.Visible = false;
             show_Team1.Visible = false;
             show_Player1.Visible = false;
+            show_Matches1.Visible = false;
         }
         private void btn_tournamentStats_Click(object sender, EventArgs e)
         {
@@ -139,7 +140,6 @@ namespace Rugby_World_Cup_2019_app
             btn_referee.BackColor = Color.FromArgb(123, 51, 144);
             btn_team.BackColor = Color.FromArgb(123, 51, 144);
             btn_player.BackColor = Color.FromArgb(123, 51, 144);
-            btn_manager.BackColor = Color.FromArgb(123, 51, 144);
             btn_tournamentStats.BackColor = Color.FromArgb(123, 51, 144);
             btn_match.BackColor = Color.FromArgb(123, 51, 144);
             
@@ -179,7 +179,10 @@ namespace Rugby_World_Cup_2019_app
 
         private void btn_match_Click(object sender, EventArgs e)
         {
-
+            hide();
+            NormalColor();
+            show_Matches1.Visible = true;
+            btn_match.BackColor = Color.FromArgb(131, 65, 164);
         }
     }
 }

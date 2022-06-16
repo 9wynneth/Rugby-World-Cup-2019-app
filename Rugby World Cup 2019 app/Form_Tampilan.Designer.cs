@@ -68,6 +68,7 @@ namespace Rugby_World_Cup_2019_app
             this.flowLayoutPanelLeftSideTampilan = new System.Windows.Forms.FlowLayoutPanel();
             this.pnl_return = new System.Windows.Forms.Panel();
             this.btn_return = new System.Windows.Forms.Button();
+            this.show_Matches1 = new Rugby_World_Cup_2019_app.Show_Matches();
             this.panel9.SuspendLayout();
             this.pnl_top.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_logo)).BeginInit();
@@ -422,6 +423,7 @@ namespace Rugby_World_Cup_2019_app
             // 
             // pnl_edit
             // 
+            this.pnl_edit.Controls.Add(this.show_Matches1);
             this.pnl_edit.Controls.Add(this.show_Player1);
             this.pnl_edit.Controls.Add(this.show_Team1);
             this.pnl_edit.Controls.Add(this.show_Referee1);
@@ -436,6 +438,7 @@ namespace Rugby_World_Cup_2019_app
             // 
             // show_Player1
             // 
+            this.show_Player1.AutoScroll = true;
             this.show_Player1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.show_Player1.Location = new System.Drawing.Point(221, 0);
             this.show_Player1.Name = "show_Player1";
@@ -528,6 +531,14 @@ namespace Rugby_World_Cup_2019_app
             this.btn_return.UseVisualStyleBackColor = true;
             this.btn_return.Click += new System.EventHandler(this.btn_return_Click);
             // 
+            // show_Matches1
+            // 
+            this.show_Matches1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.show_Matches1.Location = new System.Drawing.Point(221, 0);
+            this.show_Matches1.Name = "show_Matches1";
+            this.show_Matches1.Size = new System.Drawing.Size(951, 743);
+            this.show_Matches1.TabIndex = 7;
+            // 
             // Form_Tampilan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -598,5 +609,6 @@ namespace Rugby_World_Cup_2019_app
         private Show_Referee show_Referee1;
         private Show_Team show_Team1;
         private Show_Player show_Player1;
+        private Show_Matches show_Matches1;
     }
 }

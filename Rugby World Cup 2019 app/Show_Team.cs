@@ -111,7 +111,7 @@ namespace Rugby_World_Cup_2019_app
                 PictureBox assPic = new PictureBox();
                 assPic.Name = "picBox_ass" + i;
                 assPic.Size = new Size(55, 55);
-                assPic.Location = new Point(200, managerPic.Location.Y);
+                assPic.Location = new Point(300, managerPic.Location.Y);
                 string assID = dtTeam.Rows[i][6].ToString();
                 string picAss = $"AssManager_{assID}";
                 object getPicAss = Properties.Resources.ResourceManager.GetObject(picAss);
