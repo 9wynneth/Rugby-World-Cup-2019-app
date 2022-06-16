@@ -116,7 +116,6 @@ namespace Rugby_World_Cup_2019_app
             tBox_refereeSearch.Show();
             tBox_refereeSearch.Enabled = true;
             check = "Search_ID";
-            
         }
 
         private void tBox_refereeSearch_TextChanged(object sender, EventArgs e)
